@@ -6,6 +6,7 @@ import team from '/team.jpg'
 import Logo from "/Logo-texto.svg"
 
 const Landing = () => {
+
   return (
     <main className="bg-[#000102] text-white">
         <div className="absolute inset-0 z-0">
@@ -21,7 +22,7 @@ const Landing = () => {
             <button className="mt-4 px-8 py-4 rounded-xl backdrop-blur-lg cursor-pointer bg-[#38BDF8] text-black font-semibold">Mude sua equipe conosco</button>
         </section>
 
-        <section className="px-[14%] py-22 bg-[#000102] flex flex-col justify-center items-center">
+        <section className="px-[14%] py-22 bg-[#000102] flex flex-col justify-center items-center" id="funciona">
             <h3 className="text-[#38BDF8] text-center font-bold mb-2">Como Funciona</h3>
             <h1 className="text-center tracking-light font-bold text-4xl leading-tigh mx-32">Um processo simplificado para construir equipes de alto impacto</h1>
             <p className=" mt-6 text-gray-300 text-center text-base mx-22 mb-8">Nossa plataforma intuitiva guia você desde o mapeamento de competências até a formação de equipes otimizadas, identificando oportunidades de crescimento ao longo do caminho.</p>
@@ -49,7 +50,7 @@ const Landing = () => {
             </div>
         </section>
 
-        <section className="px-[14%] gap-8 py-22 bg-[#000102] flex flex-row justify-center items-center">
+        <section className="px-[14%] gap-8 py-22 bg-[#000102] flex flex-row justify-center items-center" id="empresas">
             <div className="w-[50%] flex flex-col">
                 <h3 className="text-[#38BDF8] font-bold mb-2 text-left">Para empresas e times</h3>
                 <h1 className="tracking-light font-bold text-4xl mb-2 leading-tigh text-left">Um processo simplificado para construir equipes de alto impacto</h1>
@@ -72,11 +73,11 @@ const Landing = () => {
             </div>
         </section>
 
-        <section className="py-16 bg-[#000102] flex flex-col justify-center items-center pb-32">
+        <section className="py-16 bg-[#000102] flex flex-col justify-center items-center pb-32" id="pronto">
             <div class="border border-[#182534] w-[70%] flex flex-col justify-center items-center p-16 relative rounded-xl overflow-hidden bg-linear-to-r from-[#090712] via-[#041E23] to-[#090712]">               
                     <h2 class="text-white text-3xl font-bold mb-2">Pronto para construir sua equipe de alta performance?</h2>
                     <p class="text-gray-300 text-base text-center mx-42">
-                    Comece hoje a mapear as habilidades da sua organização e desbloqueie todo o seu potencial com SkillLink.
+                        Comece hoje a mapear as habilidades da sua organização e desbloqueie todo o seu potencial com SkillLink.
                     </p>
                     <button class="mt-4 px-8 py-4 rounded-xl backdrop-blur-lg cursor-pointer bg-[#38BDF8] text-black font-semibold">
                     Começar Agora
