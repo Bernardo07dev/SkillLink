@@ -1,10 +1,11 @@
 import Logo from "/Logo-Skill.png"
+import bgImage from 'src/assets/img/bg-lg.png';
 
 const Login = () => {
     return (
         <main className="bg-[#000102] flex justify-center items-center h-screen">
             <div className="absolute inset-0 z-0">
-                <img src="src/assets/img/bg-lg.png" className="absolute inset-0 w-full h-screen opacity-75" />
+                <img src={bgImage} className="absolute inset-0 w-full h-screen opacity-75" />
                 <div className="absolute inset-0 bg-linear-to-b from-[#00000000] to-[#00000074]"></div>
             </div>
 
