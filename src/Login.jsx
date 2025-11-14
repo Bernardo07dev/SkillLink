@@ -1,5 +1,5 @@
 import Logo from "/Logo-Skill.png"
-import bgImage from 'src/assets/img/bg-lg.png';
+import bgImage from './assets/img/bg-lg.png';
 
 const Login = () => {
     return (
