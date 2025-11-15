@@ -1,0 +1,3482 @@
+[
+  {
+    "id": 1,
+    "nome": "Fernanda Souza",
+    "email": "fernanda.souza@example.com",
+    "senha": "user1pass",
+    "foto": "./images/user1.jpg",
+    "cargo": "Scrum Master",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "São Paulo/SP",
+    "area": "UX/UI",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "Linux",
+      "Python"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Colaboração"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Innova",
+        "cargo": "Product Manager",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "PUC-SP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "IA",
+      "Gestão"
+    ],
+    "nivel": "basico",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 2,
+    "nome": "Kleber Ferraz",
+    "email": "kleber.ferraz@example.com",
+    "senha": "user2pass",
+    "foto": "./images/user2.jpg",
+    "cargo": "Cientista de Dados",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "JavaScript",
+      "Docker",
+      "AWS"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Innova",
+        "cargo": "Scrum Master",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "PUC-SP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areainteresses": [
+      "Cloud",
+      "Sustentabilidade"
+    ],
+    "nivel": "avancado",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 3,
+    "nome": "Bruno Ferraz",
+    "email": "bruno.ferraz@example.com",
+    "senha": "user3pass",
+    "foto": "./images/user3.jpg",
+    "cargo": "Desenvolvedor",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Curitiba/PR",
+    "area": "RH",
+    "habilidadesTecnicas": [
+      "React",
+      "JavaScript",
+      "SQL"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Colaboração"
+    ],
+    "experiencias": [
+      {
+        "empresa": "BlueSoft",
+        "cargo": "Desenvolvedor",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "PUC-SP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areainteresses": [
+      "Robótica",
+      "IA"
+    ],
+    "nivel": "intermediario",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 4,
+    "nome": "Bruno Almeida",
+    "email": "bruno.almeida@example.com",
+    "senha": "user4pass",
+    "foto": "./images/user4.jpg",
+    "cargo": "Designer",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "São Paulo/SP",
+    "area": "RH",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "Figma",
+      "React"
+    ],
+    "softSkills": [
+      "Colaboração",
+      "Empatia"
+    ],
+    "experiencias": [
+      {
+        "empresa": "AgilePro",
+        "cargo": "Scrum Master",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "PUC-SP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Robótica",
+      "Cloud"
+    ],
+    "nivel": "avancado",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 5,
+    "nome": "Tiago Costa",
+    "email": "tiago.costa@example.com",
+    "senha": "user5pass",
+    "foto": "./images/user5.jpg",
+    "cargo": "Cientista de Dados",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Recife/PE",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "Figma",
+      "TensorFlow",
+      "React"
+    ],
+    "softSkills": [
+      "Colaboração",
+      "Empatia"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Innova",
+        "cargo": "Analista",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areainteresses": [
+      "Educação",
+      "Gestão"
+    ],
+    "nivel": "intermediario",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 6,
+    "nome": "Carlos Ferraz",
+    "email": "carlos.ferraz@example.com",
+    "senha": "user6pass",
+    "foto": "./images/user6.jpg",
+    "cargo": "Desenvolvedor",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "UX/UI",
+    "habilidadesTecnicas": [
+      "Figma",
+      "React",
+      "AWS"
+    ],
+    "softSkills": [
+      "Colaboração",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "BlueSoft",
+        "cargo": "Scrum Master",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Robótica",
+      "Gestão"
+    ],
+    "nivel": "basico",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 7,
+    "nome": "Gabriel Mendes",
+    "email": "gabriel.mendes@example.com",
+    "senha": "user7pass",
+    "foto": "./images/user7.jpg",
+    "cargo": "Scrum Master",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "UX/UI",
+    "habilidadesTecnicas": [
+      "React",
+      "JavaScript",
+      "Linux"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "BlueSoft",
+        "cargo": "Analista",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Cloud",
+      "Educação"
+    ],
+    "nivel": "intermediario",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 8,
+    "nome": "Sofia Costa",
+    "email": "sofia.costa@example.com",
+    "senha": "user8pass",
+    "foto": "./images/user8.jpg",
+    "cargo": "Analista",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "React",
+      "SQL",
+      "AWS"
+    ],
+    "softSkills": [
+      "Colaboração",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "AgilePro",
+        "cargo": "Scrum Master",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Cloud",
+      "Educação"
+    ],
+    "nivel": "intermediario",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 9,
+    "nome": "Otávio Almeida",
+    "email": "otávio.almeida@example.com",
+    "senha": "user9pass",
+    "foto": "./images/user9.jpg",
+    "cargo": "Designer",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "São Paulo/SP",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "Linux",
+      "JavaScript",
+      "SQL"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Colaboração"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Innova",
+        "cargo": "Analista",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFSC",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Alemão",
+        "nivel": "Básico"
+      }
+    ],
+    "areainteresses": [
+      "Sustentabilidade",
+      "Robótica"
+    ],
+    "nivel": "basico",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 10,
+    "nome": "Helena Ramos",
+    "email": "helena.ramos@example.com",
+    "senha": "user10pass",
+    "foto": "./images/user10.jpg",
+    "cargo": "Analista",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "UX/UI",
+    "habilidadesTecnicas": [
+      "Python",
+      "JavaScript",
+      "AWS"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "TechCorp",
+        "cargo": "Product Manager",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "PUC-SP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Segurança",
+      "IA"
+    ],
+    "nivel": "avancado",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 11,
+    "nome": "Yara Martins",
+    "email": "yara.martins@example.com",
+    "senha": "user11pass",
+    "foto": "./images/user11.jpg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "Linux",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Innova",
+        "cargo": "Desenvolvedor",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Básico"
+      }
+    ],
+    "areainteresses": [
+      "Segurança",
+      "Educação"
+    ],
+    "nivel": "intermediario",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 12,
+    "nome": "Bruno Pereira",
+    "email": "bruno.pereira@example.com",
+    "senha": "user12pass",
+    "foto": "./images/user12.jpg",
+    "cargo": "Analista",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "React",
+      "TensorFlow"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Colaboração"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Innova",
+        "cargo": "Designer",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Cloud",
+      "Gestão"
+    ],
+    "nivel": "avancado",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 13,
+    "nome": "Helena Mendes",
+    "email": "helena.mendes@example.com",
+    "senha": "user13pass",
+    "foto": "./images/user13.jpg",
+    "cargo": "Scrum Master",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "RH",
+    "habilidadesTecnicas": [
+      "TensorFlow",
+      "AWS",
+      "Docker"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "BlueSoft",
+        "cargo": "Desenvolvedor",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "PUC-SP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Cloud",
+      "Gestão"
+    ],
+    "nivel": "basico",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 14,
+    "nome": "Natália Ramos",
+    "email": "natália.ramos@example.com",
+    "senha": "user14pass",
+    "foto": "./images/user14.jpg",
+    "cargo": "Desenvolvedor",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Recife/PE",
+    "area": "Produto",
+    "habilidadesTecnicas": [
+      "Python",
+      "Figma",
+      "AWS"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Colaboração"
+    ],
+    "experiencias": [
+      {
+        "empresa": "BlueSoft",
+        "cargo": "Desenvolvedor",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFSC",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Robótica",
+      "IA"
+    ],
+    "nivel": "intermediario",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 15,
+    "nome": "William Souza",
+    "email": "william.souza@example.com",
+    "senha": "user15pass",
+    "foto": "./images/user15.jpg",
+    "cargo": "Engenheiro",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Produto",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "AWS",
+      "Python"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "TechCorp",
+        "cargo": "Scrum Master",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areainteresses": [
+      "Cloud",
+      "Gestão"
+    ],
+    "nivel": "intermediario",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 16,
+    "nome": "Marcos Martins",
+    "email": "marcos.martins@example.com",
+    "senha": "user16pass",
+    "foto": "./images/user16.jpg",
+    "cargo": "Scrum Master",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "São Paulo/SP",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "Docker",
+      "Node.js",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Empatia",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Innova",
+        "cargo": "Analista",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFSC",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Alemão",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areainteresses": [
+      "IA",
+      "Segurança"
+    ],
+    "nivel": "basico",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 17,
+    "nome": "Ana Martins",
+    "email": "ana.martins@example.com",
+    "senha": "user17pass",
+    "foto": "./images/user17.jpg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "UX/UI",
+    "habilidadesTecnicas": [
+      "React",
+      "SQL",
+      "AWS"
+    ],
+    "softSkills": [
+      "Colaboração",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "TechCorp",
+        "cargo": "Scrum Master",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFSC",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Básico"
+      }
+    ],
+    "areainteresses": [
+      "Robótica",
+      "Gestão"
+    ],
+    "nivel": "intermediario",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 18,
+    "nome": "Helena Ferraz",
+    "email": "helena.ferraz@example.com",
+    "senha": "user18pass",
+    "foto": "./images/user18.jpg",
+    "cargo": "Desenvolvedor",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Curitiba/PR",
+    "area": "Finanças",
+    "habilidadesTecnicas": [
+      "Docker",
+      "SQL",
+      "Figma"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "TechCorp",
+        "cargo": "Engenheiro",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "PUC-SP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areainteresses": [
+      "Educação",
+      "Cloud"
+    ],
+    "nivel": "avancado",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 19,
+    "nome": "Helena Costa",
+    "email": "helena.costa@example.com",
+    "senha": "user19pass",
+    "foto": "./images/user19.jpg",
+    "cargo": "Desenvolvedor",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "RH",
+    "habilidadesTecnicas": [
+      "React",
+      "JavaScript",
+      "Node.js"
+    ],
+    "softSkills": [
+      "Colaboração",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "AgilePro",
+        "cargo": "Analista",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areainteresses": [
+      "IA",
+      "Educação"
+    ],
+    "nivel": "basico",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 20,
+    "nome": "Kleber Mendes",
+    "email": "kleber.mendes@example.com",
+    "senha": "user20pass",
+    "foto": "./images/user20.jpg",
+    "cargo": "Designer",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "React",
+      "AWS"
+    ],
+    "softSkills": [
+      "Empatia",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "AgilePro",
+        "cargo": "Cientista de Dados",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFSC",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Básico"
+      }
+    ],
+    "areainteresses": [
+      "Robótica",
+      "IA"
+    ],
+    "nivel": "intermediario",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 21,
+    "nome": "Tiago Souza",
+    "email": "tiago.souza@example.com",
+    "senha": "user21pass",
+    "foto": "./images/user21.jpg",
+    "cargo": "Analista",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": [
+      "Figma",
+      "AWS",
+      "SQL"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Colaboração"
+    ],
+    "experiencias": [
+      {
+        "empresa": "BlueSoft",
+        "cargo": "Cientista de Dados",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Sustentabilidade",
+      "Educação"
+    ],
+    "nivel": "intermediario",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 22,
+    "nome": "Gabriel Martins",
+    "email": "gabriel.martins@example.com",
+    "senha": "user22pass",
+    "foto": "./images/user22.jpg",
+    "cargo": "Engenheiro",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "São Paulo/SP",
+    "area": "UX/UI",
+    "habilidadesTecnicas": [
+      "Docker",
+      "Figma",
+      "SQL"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Empatia"
+    ],
+    "experiencias": [
+      {
+        "empresa": "AgilePro",
+        "cargo": "Product Manager",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "PUC-SP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Alemão",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areainteresses": [
+      "Segurança",
+      "Educação"
+    ],
+    "nivel": "intermediario",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 23,
+    "nome": "Yara Ramos",
+    "email": "yara.ramos@example.com",
+    "senha": "user23pass",
+    "foto": "./images/user23.jpg",
+    "cargo": "Engenheiro",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Produto",
+    "habilidadesTecnicas": [
+      "JavaScript",
+      "Linux",
+      "TensorFlow"
+    ],
+    "softSkills": [
+      "Colaboração",
+      "Empatia"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Innova",
+        "cargo": "Cientista de Dados",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areainteresses": [
+      "Gestão",
+      "Robótica"
+    ],
+    "nivel": "intermediario",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 24,
+    "nome": "Valentina Ramos",
+    "email": "valentina.ramos@example.com",
+    "senha": "user24pass",
+    "foto": "./images/user24.jpg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "AWS",
+      "Python",
+      "Node.js"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "BlueSoft",
+        "cargo": "Scrum Master",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "PUC-SP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Educação",
+      "Robótica"
+    ],
+    "nivel": "avancado",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 25,
+    "nome": "Fernanda Ferraz",
+    "email": "fernanda.ferraz@example.com",
+    "senha": "user25pass",
+    "foto": "./images/user25.jpg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Recife/PE",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "AWS",
+      "React",
+      "Linux"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Colaboração"
+    ],
+    "experiencias": [
+      {
+        "empresa": "TechCorp",
+        "cargo": "Designer",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Robótica",
+      "Segurança"
+    ],
+    "nivel": "avancado",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 26,
+    "nome": "Ana Souza",
+    "email": "ana.souza@example.com",
+    "senha": "user26pass",
+    "foto": "./images/user26.jpg",
+    "cargo": "Desenvolvedor",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "São Paulo/SP",
+    "area": "UX/UI",
+    "habilidadesTecnicas": [
+      "Linux",
+      "SQL",
+      "AWS"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Colaboração"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Innova",
+        "cargo": "Product Manager",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Básico"
+      }
+    ],
+    "areainteresses": [
+      "Gestão",
+      "Sustentabilidade"
+    ],
+    "nivel": "avancado",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 27,
+    "nome": "William Oliveira",
+    "email": "william.oliveira@example.com",
+    "senha": "user27pass",
+    "foto": "./images/user27.jpg",
+    "cargo": "Designer",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Curitiba/PR",
+    "area": "Produto",
+    "habilidadesTecnicas": [
+      "AWS",
+      "Python",
+      "Linux"
+    ],
+    "softSkills": [
+      "Empatia",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "AgilePro",
+        "cargo": "Scrum Master",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Alemão",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Robótica",
+      "Segurança"
+    ],
+    "nivel": "intermediario",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 28,
+    "nome": "Yara Silva",
+    "email": "yara.silva@example.com",
+    "senha": "user28pass",
+    "foto": "./images/user28.jpg",
+    "cargo": "Desenvolvedor",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "São Paulo/SP",
+    "area": "UX/UI",
+    "habilidadesTecnicas": [
+      "Docker",
+      "AWS",
+      "SQL"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Empatia"
+    ],
+    "experiencias": [
+      {
+        "empresa": "BlueSoft",
+        "cargo": "Cientista de Dados",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "IA",
+      "Gestão"
+    ],
+    "nivel": "intermediario",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 29,
+    "nome": "Yara Costa",
+    "email": "yara.costa@example.com",
+    "senha": "user29pass",
+    "foto": "./images/user29.jpg",
+    "cargo": "Desenvolvedor",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Recife/PE",
+    "area": "Data Science",
+    "habilidadesTecnicas": [
+      "AWS",
+      "Linux",
+      "Figma"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Empatia"
+    ],
+    "experiencias": [
+      {
+        "empresa": "AgilePro",
+        "cargo": "Scrum Master",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areainteresses": [
+      "Educação",
+      "Segurança"
+    ],
+    "nivel": "intermediario",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 30,
+    "nome": "Helena Pereira",
+    "email": "helena.pereira@example.com",
+    "senha": "user30pass",
+    "foto": "./images/user30.jpg",
+    "cargo": "Cientista de Dados",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "São Paulo/SP",
+    "area": "UX/UI",
+    "habilidadesTecnicas": [
+      "Figma",
+      "Linux",
+      "Docker"
+    ],
+    "softSkills": [
+      "Colaboração",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "BlueSoft",
+        "cargo": "Desenvolvedor",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "PUC-SP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Gestão",
+      "Educação"
+    ],
+    "nivel": "avancado",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 31,
+    "nome": "Sofia Ramos",
+    "email": "sofia.ramos@example.com",
+    "senha": "user31pass",
+    "foto": "./images/user31.jpg",
+    "cargo": "Scrum Master",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Segurança",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "AWS",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Colaboração",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "BlueSoft",
+        "cargo": "Scrum Master",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Cloud",
+      "Sustentabilidade"
+    ],
+    "nivel": "intermediario",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 32,
+    "nome": "Gabriel Souza",
+    "email": "gabriel.souza@example.com",
+    "senha": "user32pass",
+    "foto": "./images/user32.jpg",
+    "cargo": "Cientista de Dados",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Recife/PE",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": [
+      "TensorFlow",
+      "SQL",
+      "AWS"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Innova",
+        "cargo": "Analista",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFSC",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Básico"
+      }
+    ],
+    "areainteresses": [
+      "IA",
+      "Gestão"
+    ],
+    "nivel": "basico",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 33,
+    "nome": "Fernanda Ferraz",
+    "email": "fernanda.ferraz@example.com",
+    "senha": "user33pass",
+    "foto": "./images/user33.jpg",
+    "cargo": "Designer",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "São Paulo/SP",
+    "area": "Finanças",
+    "habilidadesTecnicas": [
+      "Linux",
+      "SQL",
+      "Python"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Empatia"
+    ],
+    "experiencias": [
+      {
+        "empresa": "TechCorp",
+        "cargo": "Analista",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFSC",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Básico"
+      }
+    ],
+    "areainteresses": [
+      "Educação",
+      "IA"
+    ],
+    "nivel": "intermediario",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 34,
+    "nome": "Igor Ramos",
+    "email": "igor.ramos@example.com",
+    "senha": "user34pass",
+    "foto": "./images/user34.jpg",
+    "cargo": "Scrum Master",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "São Paulo/SP",
+    "area": "Data Science",
+    "habilidadesTecnicas": [
+      "React",
+      "Docker",
+      "TensorFlow"
+    ],
+    "softSkills": [
+      "Colaboração",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Innova",
+        "cargo": "Designer",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "PUC-SP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areainteresses": [
+      "IA",
+      "Educação"
+    ],
+    "nivel": "intermediario",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 35,
+    "nome": "Tiago Almeida",
+    "email": "tiago.almeida@example.com",
+    "senha": "user35pass",
+    "foto": "./images/user35.jpg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Recife/PE",
+    "area": "RH",
+    "habilidadesTecnicas": [
+      "Python",
+      "Linux",
+      "AWS"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Empatia"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Innova",
+        "cargo": "Desenvolvedor",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Gestão",
+      "Robótica"
+    ],
+    "nivel": "intermediario",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 36,
+    "nome": "Xavier Ferraz",
+    "email": "xavier.ferraz@example.com",
+    "senha": "user36pass",
+    "foto": "./images/user36.jpg",
+    "cargo": "Cientista de Dados",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "AWS",
+      "Figma",
+      "TensorFlow"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Colaboração"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Innova",
+        "cargo": "Desenvolvedor",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Alemão",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "IA",
+      "Educação"
+    ],
+    "nivel": "avancado",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 37,
+    "nome": "Julia Pereira",
+    "email": "julia.pereira@example.com",
+    "senha": "user37pass",
+    "foto": "./images/user37.jpg",
+    "cargo": "Cientista de Dados",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Recife/PE",
+    "area": "Finanças",
+    "habilidadesTecnicas": [
+      "Docker",
+      "Figma",
+      "SQL"
+    ],
+    "softSkills": [
+      "Colaboração",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "AgilePro",
+        "cargo": "Engenheiro",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "PUC-SP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Alemão",
+        "nivel": "Básico"
+      }
+    ],
+    "areainteresses": [
+      "Cloud",
+      "Educação"
+    ],
+    "nivel": "basico",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 38,
+    "nome": "Eduardo Martins",
+    "email": "eduardo.martins@example.com",
+    "senha": "user38pass",
+    "foto": "./images/user38.jpg",
+    "cargo": "Analista",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Data Science",
+    "habilidadesTecnicas": [
+      "Python",
+      "Linux",
+      "TensorFlow"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Innova",
+        "cargo": "Desenvolvedor",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "IA",
+      "Educação"
+    ],
+    "nivel": "avancado",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 39,
+    "nome": "Fernanda Mendes",
+    "email": "fernanda.mendes@example.com",
+    "senha": "user39pass",
+    "foto": "./images/user39.jpg",
+    "cargo": "Scrum Master",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "São Paulo/SP",
+    "area": "Segurança",
+    "habilidadesTecnicas": [
+      "Python",
+      "React",
+      "AWS"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "TechCorp",
+        "cargo": "Designer",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFSC",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Robótica",
+      "Sustentabilidade"
+    ],
+    "nivel": "basico",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 40,
+    "nome": "Natália Souza",
+    "email": "natália.souza@example.com",
+    "senha": "user40pass",
+    "foto": "./images/user40.jpg",
+    "cargo": "Cientista de Dados",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "Docker",
+      "TensorFlow",
+      "React"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Innova",
+        "cargo": "Engenheiro",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Alemão",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areainteresses": [
+      "Educação",
+      "Segurança"
+    ],
+    "nivel": "basico",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 41,
+    "nome": "Rafael Costa",
+    "email": "rafael.costa@example.com",
+    "senha": "user41pass",
+    "foto": "./images/user41.jpg",
+    "cargo": "Cientista de Dados",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Data Science",
+    "habilidadesTecnicas": [
+      "SQL",
+      "Node.js",
+      "React"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Colaboração"
+    ],
+    "experiencias": [
+      {
+        "empresa": "TechCorp",
+        "cargo": "Engenheiro",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "PUC-SP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Cloud",
+      "IA"
+    ],
+    "nivel": "basico",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 42,
+    "nome": "Paula Ferraz",
+    "email": "paula.ferraz@example.com",
+    "senha": "user42pass",
+    "foto": "./images/user42.jpg",
+    "cargo": "Scrum Master",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "TensorFlow",
+      "Figma",
+      "Docker"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "TechCorp",
+        "cargo": "Designer",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "IA",
+      "Sustentabilidade"
+    ],
+    "nivel": "basico",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 43,
+    "nome": "Natália Pereira",
+    "email": "natália.pereira@example.com",
+    "senha": "user43pass",
+    "foto": "./images/user43.jpg",
+    "cargo": "Analista",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Recife/PE",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "SQL",
+      "TensorFlow"
+    ],
+    "softSkills": [
+      "Empatia",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "TechCorp",
+        "cargo": "Cientista de Dados",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFSC",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Básico"
+      }
+    ],
+    "areainteresses": [
+      "Gestão",
+      "IA"
+    ],
+    "nivel": "avancado",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 44,
+    "nome": "William Costa",
+    "email": "william.costa@example.com",
+    "senha": "user44pass",
+    "foto": "./images/user44.jpg",
+    "cargo": "Scrum Master",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "São Paulo/SP",
+    "area": "RH",
+    "habilidadesTecnicas": [
+      "React",
+      "JavaScript",
+      "Node.js"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Innova",
+        "cargo": "Scrum Master",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Alemão",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Gestão",
+      "Segurança"
+    ],
+    "nivel": "intermediario",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 45,
+    "nome": "Zeca Oliveira",
+    "email": "zeca.oliveira@example.com",
+    "senha": "user45pass",
+    "foto": "./images/user45.jpg",
+    "cargo": "Desenvolvedor",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Data Science",
+    "habilidadesTecnicas": [
+      "Linux",
+      "Figma",
+      "Docker"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Empatia"
+    ],
+    "experiencias": [
+      {
+        "empresa": "BlueSoft",
+        "cargo": "Analista",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Alemão",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areainteresses": [
+      "Robótica",
+      "IA"
+    ],
+    "nivel": "basico",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 46,
+    "nome": "Valentina Souza",
+    "email": "valentina.souza@example.com",
+    "senha": "user46pass",
+    "foto": "./images/user46.jpg",
+    "cargo": "Engenheiro",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "São Paulo/SP",
+    "area": "Data Science",
+    "habilidadesTecnicas": [
+      "TensorFlow",
+      "Figma",
+      "AWS"
+    ],
+    "softSkills": [
+      "Empatia",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Innova",
+        "cargo": "Desenvolvedor",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "PUC-SP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Alemão",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Robótica",
+      "Cloud"
+    ],
+    "nivel": "intermediario",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 47,
+    "nome": "Kleber Costa",
+    "email": "kleber.costa@example.com",
+    "senha": "user47pass",
+    "foto": "./images/user47.jpg",
+    "cargo": "Engenheiro",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Produto",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "React",
+      "JavaScript"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Innova",
+        "cargo": "Analista",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areainteresses": [
+      "Sustentabilidade",
+      "Segurança"
+    ],
+    "nivel": "intermediario",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 48,
+    "nome": "Xavier Mendes",
+    "email": "xavier.mendes@example.com",
+    "senha": "user48pass",
+    "foto": "./images/user48.jpg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Curitiba/PR",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": [
+      "React",
+      "SQL",
+      "Linux"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Colaboração"
+    ],
+    "experiencias": [
+      {
+        "empresa": "TechCorp",
+        "cargo": "Analista",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Alemão",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areainteresses": [
+      "Sustentabilidade",
+      "Robótica"
+    ],
+    "nivel": "avancado",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 49,
+    "nome": "Yara Silva",
+    "email": "yara.silva@example.com",
+    "senha": "user49pass",
+    "foto": "./images/user49.jpg",
+    "cargo": "Designer",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Curitiba/PR",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "JavaScript",
+      "React",
+      "SQL"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Innova",
+        "cargo": "Cientista de Dados",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "PUC-SP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "IA",
+      "Gestão"
+    ],
+    "nivel": "intermediario",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 50,
+    "nome": "Ana Costa",
+    "email": "ana.costa@example.com",
+    "senha": "user50pass",
+    "foto": "./images/user50.jpg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "São Paulo/SP",
+    "area": "RH",
+    "habilidadesTecnicas": [
+      "Linux",
+      "SQL",
+      "Docker"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "AgilePro",
+        "cargo": "Desenvolvedor",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFSC",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areainteresses": [
+      "Gestão",
+      "Robótica"
+    ],
+    "nivel": "avancado",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 51,
+    "nome": "Yara Costa",
+    "email": "yara.costa@example.com",
+    "senha": "user51pass",
+    "foto": "./images/user51.jpg",
+    "cargo": "Designer",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "São Paulo/SP",
+    "area": "Data Science",
+    "habilidadesTecnicas": [
+      "Docker",
+      "AWS",
+      "Linux"
+    ],
+    "softSkills": [
+      "Empatia",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "AgilePro",
+        "cargo": "Product Manager",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "PUC-SP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Básico"
+      }
+    ],
+    "areainteresses": [
+      "Robótica",
+      "Gestão"
+    ],
+    "nivel": "basico",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 52,
+    "nome": "Paula Oliveira",
+    "email": "paula.oliveira@example.com",
+    "senha": "user52pass",
+    "foto": "./images/user52.jpg",
+    "cargo": "Scrum Master",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Curitiba/PR",
+    "area": "Produto",
+    "habilidadesTecnicas": [
+      "JavaScript",
+      "Node.js",
+      "Docker"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "BlueSoft",
+        "cargo": "Engenheiro",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFSC",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Espanhol",
+        "nivel": "Básico"
+      }
+    ],
+    "areainteresses": [
+      "IA",
+      "Sustentabilidade"
+    ],
+    "nivel": "intermediario",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 53,
+    "nome": "Zeca Pereira",
+    "email": "zeca.pereira@example.com",
+    "senha": "user53pass",
+    "foto": "./images/user53.jpg",
+    "cargo": "Engenheiro",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Curitiba/PR",
+    "area": "Segurança",
+    "habilidadesTecnicas": [
+      "AWS",
+      "React",
+      "TensorFlow"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Colaboração"
+    ],
+    "experiencias": [
+      {
+        "empresa": "BlueSoft",
+        "cargo": "Analista",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "PUC-SP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Alemão",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "IA",
+      "Educação"
+    ],
+    "nivel": "basico",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 54,
+    "nome": "Daniela Silva",
+    "email": "daniela.silva@example.com",
+    "senha": "user54pass",
+    "foto": "./images/user54.jpg",
+    "cargo": "Scrum Master",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Curitiba/PR",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "Python",
+      "Figma",
+      "Linux"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Empatia"
+    ],
+    "experiencias": [
+      {
+        "empresa": "TechCorp",
+        "cargo": "Engenheiro",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Alemão",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areainteresses": [
+      "Segurança",
+      "IA"
+    ],
+    "nivel": "basico",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 55,
+    "nome": "Tiago Oliveira",
+    "email": "tiago.oliveira@example.com",
+    "senha": "user55pass",
+    "foto": "./images/user55.jpg",
+    "cargo": "Desenvolvedor",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Infraestrutura",
+    "habilidadesTecnicas": [
+      "Python",
+      "SQL",
+      "Linux"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "AgilePro",
+        "cargo": "Designer",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "PUC-SP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Alemão",
+        "nivel": "Básico"
+      }
+    ],
+    "areainteresses": [
+      "Gestão",
+      "Educação"
+    ],
+    "nivel": "avancado",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 56,
+    "nome": "Ana Martins",
+    "email": "ana.martins@example.com",
+    "senha": "user56pass",
+    "foto": "./images/user56.jpg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Finanças",
+    "habilidadesTecnicas": [
+      "AWS",
+      "SQL",
+      "React"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "TechCorp",
+        "cargo": "Analista",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areainteresses": [
+      "Gestão",
+      "IA"
+    ],
+    "nivel": "intermediario",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 57,
+    "nome": "Gabriel Pereira",
+    "email": "gabriel.pereira@example.com",
+    "senha": "user57pass",
+    "foto": "./images/user57.jpg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Recife/PE",
+    "area": "RH",
+    "habilidadesTecnicas": [
+      "AWS",
+      "Node.js",
+      "Docker"
+    ],
+    "softSkills": [
+      "Colaboração",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Innova",
+        "cargo": "Cientista de Dados",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Básico"
+      }
+    ],
+    "areainteresses": [
+      "IA",
+      "Robótica"
+    ],
+    "nivel": "avancado",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 58,
+    "nome": "Valentina Oliveira",
+    "email": "valentina.oliveira@example.com",
+    "senha": "user58pass",
+    "foto": "./images/user58.jpg",
+    "cargo": "Scrum Master",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "RH",
+    "habilidadesTecnicas": [
+      "Linux",
+      "JavaScript",
+      "TensorFlow"
+    ],
+    "softSkills": [
+      "Colaboração",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Innova",
+        "cargo": "Desenvolvedor",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Francês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areainteresses": [
+      "IA",
+      "Sustentabilidade"
+    ],
+    "nivel": "avancado",
+    "papelEquipe": "lider"
+  },
+  {
+    "id": 59,
+    "nome": "Otávio Ramos",
+    "email": "otávio.ramos@example.com",
+    "senha": "user59pass",
+    "foto": "./images/user59.jpg",
+    "cargo": "Designer",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Segurança",
+    "habilidadesTecnicas": [
+      "SQL",
+      "Docker",
+      "Figma"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Colaboração"
+    ],
+    "experiencias": [
+      {
+        "empresa": "TechCorp",
+        "cargo": "Product Manager",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFSC",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areainteresses": [
+      "Cloud",
+      "Educação"
+    ],
+    "nivel": "basico",
+    "papelEquipe": "colaborador"
+  },
+  {
+    "id": 60,
+    "nome": "Natália Souza",
+    "email": "natália.souza@example.com",
+    "senha": "user60pass",
+    "foto": "./images/user60.jpg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional dedicado e focado em resultados.",
+    "localizacao": "Recife/PE",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "React",
+      "TensorFlow",
+      "Docker"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "BlueSoft",
+        "cargo": "Engenheiro",
+        "inicio": "2020-01",
+        "fim": "2023-12",
+        "descricao": "Atuação em projetos relevantes."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Sistemas de Informação",
+        "instituicao": "UFSC",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto X",
+        "link": "https://github.com/projeto-x",
+        "descricao": "Projeto desenvolvido como estudo."
+      }
+    ],
+    "certificacoes": [
+      "Certificação Profissional"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areainteresses": [
+      "Educação",
+      "IA"
+    ],
+    "nivel": "avancado",
+    "papelEquipe": "colaborador"
+  }
+]
