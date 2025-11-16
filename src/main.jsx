@@ -4,6 +4,8 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import './index.css'
 import Landing from './Landing.jsx'
 import Login from './Login.jsx'
+import DashColaborador from './pages/DashColaborador.jsx'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -11,6 +13,7 @@ createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path='/' element={<Landing />}></Route>
         <Route path='/Login' element={<Login />}></Route>
+        <Route path='/DashColaborador' element={<DashColaborador />}></Route>
       </Routes>
     </BrowserRouter>
   </StrictMode>,
