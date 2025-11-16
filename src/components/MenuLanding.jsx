@@ -23,7 +23,7 @@ const MenuLanding = () => {
             </div>
             <div className="w-[30%] flex flex-row justify-end items-center gap-4 ">
                 <button onClick={() => navigate("/Login")} className=" cursor-pointer px-6 py-2 rounded-lg bg-[#1B1B1F] text-white border border-gray-600">Entrar</button>
-                <button>Cadastrar-se</button>
+                <button onClick={() => navigate("/Cadastro")} className="cursor-pointer">Cadastrar-se</button>
             </div>
         </header>
     );

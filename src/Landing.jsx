@@ -4,8 +4,17 @@ import { faSearchengin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import team from '/team.jpg'
 import Logo from "/Logo-texto.svg"
+import {useNavigate} from "react-router-dom"
 
 const Landing = () => {
+    const navigate = useNavigate();
+
+    const handleScroll = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
 
   return (
     <main className="bg-[#000102] text-white">
@@ -19,7 +28,7 @@ const Landing = () => {
         <section className="z-10 relative text-center py-[12%] flex flex-col justify-center items-center">
             <h1 className="text-5xl mt-22 w-[60%] tracking-tighter">Conecte talentos. Requalifique pessoas. <strong>Transforme o trabalho.</strong></h1>
             <p className="w-[40%] mt-6 text-gray-300">O SkillLink é uma plataforma inteligente que forma equipes de alta performance com base em habilidades reais.</p>
-            <button className="mt-4 px-8 py-4 rounded-xl backdrop-blur-lg cursor-pointer bg-[#38BDF8] text-black font-semibold">Mude sua equipe conosco</button>
+            <button onClick={() => navigate('/Login')} className="mt-4 px-8 py-4 rounded-xl backdrop-blur-lg cursor-pointer bg-[#38BDF8] text-black font-semibold">Mude sua equipe conosco</button>
         </section>
 
         <section className="px-[14%] py-22 bg-[#000102] flex flex-col justify-center items-center" id="funciona">
@@ -79,7 +88,7 @@ const Landing = () => {
                     <p class="text-gray-300 text-base text-center mx-42">
                         Comece hoje a mapear as habilidades da sua organização e desbloqueie todo o seu potencial com SkillLink.
                     </p>
-                    <button class="mt-4 px-8 py-4 rounded-xl backdrop-blur-lg cursor-pointer bg-[#38BDF8] text-black font-semibold">
+                    <button onClick={() => navigate('/Login')} class="mt-4 px-8 py-4 rounded-xl backdrop-blur-lg cursor-pointer bg-[#38BDF8] text-black font-semibold">
                     Começar Agora
                     </button>
             </div>
@@ -90,9 +99,9 @@ const Landing = () => {
                 <img className="w-[20%]" src={Logo}></img>
             </div>
             <div className="text-sm flex flex-row w-[50%] list-none justify-end gap-4">
-                <li>Como Funciona</li>
-                <li>Para Empresas e Times</li>
-                <li>Junte-se a Nós</li>
+                <li className="cursor-pointer" onClick={() => handleScroll("funciona")}>Como Funciona</li>
+                <li className="cursor-pointer" onClick={() => handleScroll("empresas")}>Para Empresas e Times</li>
+                <li className="cursor-pointer" onClick={() => handleScroll("pronto")}>Junte-se a Nós</li>
             </div>
         </footer>
 
