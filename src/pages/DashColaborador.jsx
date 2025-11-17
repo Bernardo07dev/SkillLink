@@ -1,8 +1,8 @@
+import Structure from '../components/Structure.jsx'
+
 const DashColaborador = () => {
     return(
-       <div>
-            <h1>Dash Colaborador</h1>
-       </div> 
+        <Structure></Structure>
     )
 }
 

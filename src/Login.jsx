@@ -2,11 +2,13 @@ import Logo from "/Logo-Skill.png"
 import bgImage from './assets/img/bg-lg.png';
 import axios from "axios";
 import { useState } from "react";
+import {useNavigate} from "react-router-dom"
 
 const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [MsgErro, setMsgErro] = useState(false);
+    const navigate = useNavigate();
 
 
     const HandleSubmit = async (e) => {
@@ -41,7 +43,7 @@ const Login = () => {
                     <input onChange={(e) => setPassword(e.target.value)} value={password} className="bg-[#ffffff0b] border border-gray-500 p-4 w-full rounded-md" type="senha" placeholder="Insira sua Senha"></input>
                     <button className="cursor-pointer py-3 shadow-lg shadow-[#38bff879] text-base rounded-md bg-[#38BDF8] text-black font-semibold">Entrar</button>
                 </form>
-                <p className="text-gray-400 text-sm mt-2">Novo por aqui? <strong>Clique aqui e faça seu cadastro</strong></p>
+                <p onClick={() => navigate('/Cadastro')} className="text-gray-400 text-sm mt-2 cursor-pointer">Novo por aqui? <strong>Clique aqui e faça seu cadastro</strong></p>
                 {MsgErro && (
                     <p className="text-red-400 text-sm mt-6 mx-6">Email ou senha incorretos. <strong>Obs: </strong>acesse o READ.me para ter acesso ao login</p>
                 )}

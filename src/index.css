@@ -1,9 +1,10 @@
 @import "tailwindcss";
 
-body{
-  font-family: Plus Jakarta Sans;
-}
+@custom-variant dark (&:where(.dark, .dark *));
 
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
 
 input[type="date"]::-webkit-calendar-picker-indicator {
   opacity: 0;
