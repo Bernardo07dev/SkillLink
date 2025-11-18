@@ -32,11 +32,14 @@ const Structure = (props) => {
     }
 
     return(
-        <main className={`${dark ? "dark" : ""} min-w-full min-h-screen flex flex-col bg-white dark:bg-[#101B21]`}>
-            <header className="dark:bg-[#101B21] w-full z-2 fixed flex flex-row justify-between py-3 px-16 border-b-[0.5px] border-[#63667c4d]">
+        <main className={`${dark ? "dark" : ""} transition-colors min-w-full min-h-screen flex flex-col bg-[#F6F7F8] dark:bg-[#101B21]`}>
+            <header className="dark:bg-[#101B21] shadow-xs bg-white w-full z-2 fixed flex flex-row justify-between py-3 px-16 border-b-[0.5px] border-[#FFF] dark:border-[#63667c4d]">
                 <img className="w-[50px] h-[43px] cursor-pointer" src={Logo}></img>
                 <div className="w-[20%] flex flex-row justify-end gap-4 items-center">
-                    <FontAwesomeIcon className="bg-[#0F2A36] text-[18px] rounded-md cursor-pointer px-2 py-3 text-[#38BDF8]" icon={faBell}></FontAwesomeIcon>
+                    <div onClick={() => SetTheme()} className={`${dark ? "bg-[#ffffff1c]" : "bg-[#131313d9]"} h-8 w-18 cursor-pointer rounded-full flex items-center`}>
+                        <div className={`bg-white h-6 w-6 rounded-full mx-[0.4em] ${dark ? "translate-x-0" : "translate-x-9"} transform transition-transform duration-300 ease-in-out `}></div>
+                    </div>
+                    <FontAwesomeIcon className="dark:bg-[#0F2A36] bg-[#E2E8F0] text-[18px] rounded-md cursor-pointer px-2 py-3 dark:text-[#38BDF8]" icon={faBell}></FontAwesomeIcon>
                     <img className="w-8 h-8 rounded-full cursor-pointer" src={UserFace}></img>
                 </div>
             </header>

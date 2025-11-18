@@ -6,7 +6,7 @@ const MenuLanding = () => {
     const navigate = useNavigate();
 
     return (
-        <header className="w-full fixed flex flex-row justify-around bg-[#cacaca07] z-100 items-center backdrop-blur-lg text-white text-sm px-8 py-6">
+        <header className="w-full fixed flex flex-row justify-around bg-[#cacaca07] z-100 items-center backdrop-blur-lg text-white text-sm px-8 py-4">
             <div className="w-[50%] flex flex-row justify-start items-center">
                 <img className="w-[7.5%]" src={Logo}></img>
             </div>

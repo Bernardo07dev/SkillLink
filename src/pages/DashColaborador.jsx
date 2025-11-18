@@ -29,17 +29,17 @@ const DashColaborador = () => {
             <main className='flex flex-row w-full p-8 gap-6'>
                 <section className='flex flex-col w-[70%] gap-8'>
                     {/* Seção Demandas */}
-                    <div className='dark:bg-[#182832] p-8 justify-start items-start rounded-lg'>
+                    <div className='dark:bg-[#182832] shadow-xs bg-white p-8 justify-start items-start rounded-lg'>
                         <h1 className='text-xl font-semibold'>Bem vindo(a) de volta {user?.nome}</h1>
                         <p className='text-gray-400 text-sm'>Veja suas demandas para essa semana:</p>
                         <div className='flex flex-row mt-4 gap-4'>
-                            <div className='bg-[#101c22b2] gap-1 w-[33.3%] flex flex-col p-6 rounded-lg cursor-pointer'>
-                                <FontAwesomeIcon className='text-xl h-4 p-3 rounded-md mb-2 text-[#38BDF8] bg-[#0F2A36]' icon={faListCheck}></FontAwesomeIcon>
-                                <p className='font-semibold text-gray-200'>Treta entre design e dev</p>
+                            <div className='dark:bg-[#101c22b2] bg-[#d8d8d83c] gap-1 w-[33.3%] flex flex-col p-6 rounded-lg cursor-pointer'>
+                                <FontAwesomeIcon className='text-xl h-4 p-3 rounded-md mb-2 text-[#38BDF8] bg-[#D0EDFB] dark:bg-[#0F2A36]' icon={faListCheck}></FontAwesomeIcon>
+                                <p className='font-semibold dark:text-gray-200'>Treta entre design e dev</p>
                                 <p className='text-xs text-gray-500'>Task: design quer um componente novo, mas explode o prazo</p>
                             </div>
-                            <div className='bg-[#101c22b2] w-[33.3%] gap-1 flex flex-col p-6 rounded-lg cursor-pointer'>
-                                <FontAwesomeIcon className='text-xl h-4 p-3 rounded-md mb-2 text-[#38BDF8] bg-[#0F2A36]' icon={faListCheck}></FontAwesomeIcon>
+                            <div className='dark:bg-[#101c22b2] bg-[#d8d8d83c] w-[33.3%] gap-1 flex flex-col p-6 rounded-lg cursor-pointer'>
+                                <FontAwesomeIcon className='text-xl h-4 p-3 rounded-md mb-2 text-[#38BDF8] bg-[#D0EDFB] dark:bg-[#0F2A36]' icon={faListCheck}></FontAwesomeIcon>
                                 <p className='font-semibold'>Alinhar roadmap</p>
                                 <p className='text-xs text-gray-500'>Task: Preciso que atualize o roadmap do Q2</p>
                             </div>
@@ -47,7 +47,7 @@ const DashColaborador = () => {
                     </div>
 
                     {/* Seção Projetos */}
-                    <div className='dark:bg-[#182832] w-full p-8 rounded-lg flex flex-row gap-6 justify-center'>
+                    <div className='dark:bg-[#182832] shadow-xs bg-white w-full p-8 rounded-lg flex flex-row gap-6 justify-center'>
                         <div className='bg-linear-to-r from-[#00C6FF] to-[#0072FF] w-[45%] rounded-lg'></div>
                         <div className='w-[55%] flex flex-col'>
                             <h1 className='font-semibold text-lg mb-1'>Complete seu perfil: <strong>75% concluído</strong></h1>
@@ -55,7 +55,7 @@ const DashColaborador = () => {
                             <div class="w-[90%] bg-gray-700 rounded-full h-2 mt-4 mb-2">
                                 <div class="bg-linear-to-r from-[#00C6FF] to-[#0072FF] h-2 rounded-full w-[75%]"></div>
                             </div>
-                            <div className='w-fit my-2 bg-[#174157] cursor-pointer py-3 rounded-md text-[#00C6FF] flex flex-row items-center justify-center px-4 gap-2'>
+                            <div className='w-fit my-2 dark:bg-[#174157] bg-[#D0EDFB] cursor-pointer py-3 rounded-md text-[#13A4EC] dark:text-[#00C6FF] flex flex-row items-center justify-center px-4 gap-2'>
                                 <p className='font-semibold text-sm'>Ver perfil</p>
                                 <FontAwesomeIcon className='font-semibold' icon={faArrowRight}></FontAwesomeIcon>
                             </div>
@@ -63,12 +63,12 @@ const DashColaborador = () => {
                     </div>
 
                     {/* Seção Recomendações */}
-                    <div className='dark:bg-[#182832] w-full p-8 rounded-lg flex flex-col gap-6 justify-start'>
+                    <div className='dark:bg-[#182832] shadow-xs bg-white w-full p-8 rounded-lg flex flex-col gap-6 justify-start'>
                         <h1 className='font-semibold text-lg'>Cursos que recomendamos para você:</h1>
                         <div className='flex flex-row gap-6'>
-                            <div className='w-[50%] border-2 border-[#c0bcff22] p-6 rounded-xl gap-2 flex flex-col'>
+                            <div className='w-[50%] border-2 shadow-sm border-[#c0bcff22] p-6 rounded-xl gap-2 flex flex-col'>
                                 <FontAwesomeIcon className='text-4xl mb-2 text-[#13A4EC]' icon={faTachographDigital}></FontAwesomeIcon>
-                                <h2 className='text-gray-200 font-bold'>UX/UI Fundamentals + Design Thinking</h2>
+                                <h2 className='dark:text-gray-200 text-gray-600 font-bold'>UX/UI Fundamentals + Design Thinking</h2>
                                 <p className='text-sm text-gray-500'>Aprenda os princípios essenciais de experiência do usuário, interface e prototipação.</p>
                                 <div className='w-fit my-2 cursor-pointer rounded-md text-[#00C6FF] flex flex-row items-center justify-center gap-2 underline'>
                                     <p className='font-semibold text-sm'>Ver treinamento</p>
@@ -76,9 +76,9 @@ const DashColaborador = () => {
                                 </div>
                             </div>
 
-                            <div className='w-[50%] border-2 border-[#c0bcff22] p-6 rounded-xl gap-2 flex flex-col'>
+                            <div className='w-[50%] border-2 shadow-sm border-[#c0bcff22] p-6 rounded-xl gap-2 flex flex-col'>
                                 <FontAwesomeIcon className='text-4xl mb-2 text-[#13A4EC]' icon={faBrain}></FontAwesomeIcon>
-                                <h2 className='text-gray-200 font-bold'>Introdução à Inteligência Artificial aplicada a Produtos</h2>
+                                <h2 className='dark:text-gray-200 text-gray-600 font-bold'>Introdução à Inteligência Artificial aplicada a Produtos</h2>
                                 <p className='text-sm text-gray-500'>Entenda como a IA transforma produtos digitais, explore casos de uso práticos e aprenda a identificar oportunidades</p>
                                 <div className='w-fit my-2 cursor-pointer rounded-md text-[#00C6FF] flex flex-row items-center justify-center gap-2 underline'>
                                     <p className='font-semibold text-sm'>Ver treinamento</p>
@@ -89,35 +89,35 @@ const DashColaborador = () => {
                     </div>
 
                     {/* Seção Times */}
-                    <div className='dark:bg-[#182832] w-full p-8 rounded-lg flex flex-col gap-6 justify-start'>
+                    <div className='dark:bg-[#182832] shadow-xs bg-white w-full p-8 rounded-lg flex flex-col gap-6 justify-start'>
                         <h1 className='font-semibold text-lg'>Times que recomendamos para você:</h1>
                         <div className='flex flex-row gap-4'>
-                            <div className='w-[33.3%] bg-[#101C22] p-6 rounded-xl gap-2 flex flex-col'>
+                            <div className='w-[33.3%] dark:bg-[#101C22] bg-[#F6F7F8] p-6 rounded-xl gap-2 flex flex-col'>
                                 <div class="w-14 h-14 bg-[#10374A] font-bold flex justify-center items-center rounded-full text-[#13A4EC]">P</div>
-                                <h2 className='text-gray-200 font-bold'>Projeto Phoenix</h2>
+                                <h2 className='dark:text-gray-200 font-bold'>Projeto Phoenix</h2>
                                 <p className='text-sm text-gray-500'>Assistente Inteligente de Suporte interno</p>
                                 <p className='text-sm underline text-gray-400'>IA aplicada a Produtos</p>
-                                <div className='w-fit my-2 cursor-pointer rounded-md bg-[#283339] flex flex-row items-center justify-center gap-2 py-4 px-6'>
+                                <div className='w-fit my-2 cursor-pointer rounded-md dark:bg-[#283339] bg-[#E2E8F0] flex flex-row items-center justify-center gap-2 py-3 px-6'>
                                     <p className='font-semibold text-sm'>Conectar</p>
                                 </div>
                             </div>
 
-                            <div className='w-[33.3%] bg-[#101C22] p-6 rounded-xl gap-2 flex flex-col'>
+                            <div className='w-[33.3%] dark:bg-[#101C22] bg-[#F6F7F8] p-6 rounded-xl gap-2 flex flex-col'>
                                 <div class="w-14 h-14 bg-[#2E274C] font-bold flex justify-center items-center rounded-full text-[#A855F7]">M</div>
-                                <h2 className='text-gray-200 font-bold'>Onboarding Maverick</h2>
+                                <h2 className='dark:text-gray-200 font-bold'>Onboarding Maverick</h2>
                                 <p className='text-sm text-gray-500'>Melhoria completa do onboarding.</p>
                                 <p className='text-sm underline text-gray-400'>Design Thinking</p>
-                                <div className='w-fit my-2 cursor-pointer rounded-md bg-[#283339] flex flex-row items-center justify-center gap-2 py-4 px-6'>
+                                <div className='w-fit my-2 cursor-pointer rounded-md dark:bg-[#283339] bg-[#E2E8F0] flex flex-row items-center justify-center gap-2 py-3 px-6'>
                                     <p className='font-semibold text-sm'>Conectar</p>
                                 </div>
                             </div>
 
-                            <div className='w-[33.3%] bg-[#101C22]  p-6 rounded-xl gap-2 flex flex-col'>
+                            <div className='w-[33.3%] dark:bg-[#101C22] bg-[#F6F7F8] p-6 rounded-xl gap-2 flex flex-col'>
                                 <div class="w-14 h-14 bg-[#103B3C] font-bold flex justify-center items-center rounded-full text-[#14B7A5]">D</div>
-                                <h2 className='text-gray-200 font-bold'>Métrics Dash</h2>
+                                <h2 className='dark:text-gray-200 font-bold'>Métrics Dash</h2>
                                 <p className='text-sm text-gray-500'>Dashboard de Métricas do Time Ágil.</p>
                                 <p className='text-sm underline text-gray-400'>Gestão / Agilidade</p>
-                                <div className='w-fit my-2 cursor-pointer rounded-md bg-[#283339] flex flex-row items-center justify-center gap-2 py-4 px-6'>
+                                <div className='w-fit my-2 cursor-pointer rounded-md dark:bg-[#283339] bg-[#E2E8F0] flex flex-row items-center justify-center gap-2 py-3 px-6'>
                                     <p className='font-semibold text-sm'>Conectar</p>
                                 </div>
                             </div>
@@ -127,19 +127,19 @@ const DashColaborador = () => {
 
                 <section className='flex flex-col w-[30%] gap-8'>
                     {/* Secction Feat com time */}
-                    <div className='dark:bg-[#182832] p-8 justify-start items-center rounded-lg'>
+                    <div className='dark:bg-[#182832] shadow-xs bg-white p-8 justify-start items-center rounded-lg'>
                         <h1 className='font-semibold text-lg'>Seu feat com time:</h1>
-                        <div className='flex justify-center w-full my-8'>
+                        <div className='flex justify-center w-full my-4'>
                             <GraficoCircular percentage={75}></GraficoCircular>
                         </div>
                         <p className='text-center text-sm text-gray-400'>Você possui 75% das competências requeridas para o Projeto Phoenix.</p>
                     </div>
 
                     {/* Secção Compromisso */}
-                    <div className='dark:bg-[#182832] p-8 justify-start items-center rounded-lg'>
+                    <div className='dark:bg-[#182832] shadow-xs bg-white p-8 justify-start items-center rounded-lg'>
                         <h1 className='font-semibold text-lg mb-4'>Próximos compromissos:</h1>
-                        <div className='p-6 dark:bg-[#101C22] rounded-lg'>
-                            <h1 className='text-gray-200  mb-4'>Projeto UI/UX Plataforma</h1>
+                        <div className='p-6 dark:bg-[#101C22] bg-[#F6F7F8] rounded-lg'>
+                            <h1 className='dark:text-gray-200 text-gray-800 mb-4'>Projeto UI/UX Plataforma</h1>
                             <div className='flex flex-row items-center gap-2 text-gray-500 mb-4 font-semibold'>
                                 <FontAwesomeIcon className='font-semibold' icon={faCalendar}></FontAwesomeIcon>
                                 <p className='text-sm'>Hoje, 13:30</p>
@@ -152,7 +152,7 @@ const DashColaborador = () => {
                     </div>
 
                     {/* Secção Rede */}
-                    <div className='dark:bg-[#182832] p-8 justify-start items-center rounded-lg'>
+                    <div className='dark:bg-[#182832] shadow-xs bg-white p-8 justify-start items-center rounded-lg'>
                         <h1 className='font-semibold text-lg mb-6'>Atividade Recente na sua Rede</h1>
                         <div className='flex flex-row gap-4 mb-6'>
                             <img className='w-[15%] h-[15%] rounded-full' src={user1}></img>
