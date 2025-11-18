@@ -33,7 +33,7 @@ const Structure = (props) => {
 
     return(
         <main className={`${dark ? "dark" : ""} min-w-full min-h-screen flex flex-col bg-white dark:bg-[#101B21]`}>
-            <header className="dark:bg-[#101B21] w-full fixed flex flex-row justify-between py-3 px-16 border-b-[0.5px] border-[#63667c4d]">
+            <header className="dark:bg-[#101B21] w-full z-2 fixed flex flex-row justify-between py-3 px-16 border-b-[0.5px] border-[#63667c4d]">
                 <img className="w-[50px] h-[43px] cursor-pointer" src={Logo}></img>
                 <div className="w-[20%] flex flex-row justify-end gap-4 items-center">
                     <FontAwesomeIcon className="bg-[#0F2A36] text-[18px] rounded-md cursor-pointer px-2 py-3 text-[#38BDF8]" icon={faBell}></FontAwesomeIcon>
@@ -41,8 +41,8 @@ const Structure = (props) => {
                 </div>
             </header>
 
-            <section className="flex flex-row w-full">
-                <div className="w-[300px]">
+            <section className="flex flex-row w-full min-h-screen">
+                <div className="w-[350px]">
                     <Sidebar estado={props.estado}></Sidebar>
                 </div>
 
