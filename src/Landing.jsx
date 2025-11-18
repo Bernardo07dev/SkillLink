@@ -26,7 +26,8 @@ const Landing = () => {
         <MenuLanding></MenuLanding>
 
         <section className="z-10 relative text-center py-[12%] flex flex-col justify-center items-center">
-            <h1 className="text-5xl mt-22 w-[60%] tracking-tighter">Conecte talentos. Requalifique pessoas. <strong>Transforme o trabalho.</strong></h1>
+            <img src={Logo} className="w-[9%] mt-6"></img>
+            <h1 className="text-5xl mt-4 w-[60%] tracking-tighter">Conecte talentos. Requalifique pessoas. <strong>Transforme o trabalho.</strong></h1>
             <p className="w-[40%] mt-6 text-gray-300">O SkillLink é uma plataforma inteligente que forma equipes de alta performance com base em habilidades reais.</p>
             <button onClick={() => navigate('/Login')} className="mt-4 px-8 py-4 rounded-xl backdrop-blur-lg cursor-pointer bg-[#38BDF8] text-black font-semibold">Mude sua equipe conosco</button>
         </section>
