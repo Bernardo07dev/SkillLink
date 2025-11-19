@@ -12,7 +12,7 @@ const Sidebar = (props) => {
     useEffect(() => {
         const GetUser = async () => {
             const res = await axios.get('users.json')
-            const UserColab = res.data.find((user) => user.id == 1)
+            const UserColab = res.data.find((user) => user.id == 2)
             setUser(UserColab)
             console.log(UserColab)
         }
@@ -22,7 +22,7 @@ const Sidebar = (props) => {
 
     return(
         <header className="w-full pt-18 h-full dark:bg-[#182832] bg-white shadow-xs">
-            <section className="py-6 px-8 flex flex-row items-center justify-center gap-4 dark:text-white">
+            <section onClick={() => navigate('/PerfilColaborador')} className="cursor-pointer py-6 px-8 flex flex-row items-center justify-center gap-4 dark:text-white">
                 <img className="w-[17%] h-[17%] rounded-full" src={UserFace}></img>
                 <div className="w-[85%]">
                     <p className=" font-semibold dark:text-gray-200 -mb-px-2">{user.nome}</p>

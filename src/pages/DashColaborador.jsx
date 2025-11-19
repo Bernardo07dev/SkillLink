@@ -9,15 +9,17 @@ import GraficoCircular from '../components/GraficoCircular.jsx';
 import user1 from "../assets/img/emily.png"
 import user2 from "../assets/img/jane.png"
 import user3 from "../assets/img/mike.png"
+import {useNavigate} from "react-router-dom";
 
 
 const DashColaborador = () => {
     const [user, setUser] = useState({})
+    const navigate = useNavigate();
 
     useEffect(() => {
         const GetUser = async () => {
             const res = await axios.get('users.json')
-            const UserColab = res.data.find((user) => user.id == 1)
+            const UserColab = res.data.find((user) => user.id == 2)
             setUser(UserColab)
         }
 
@@ -33,12 +35,12 @@ const DashColaborador = () => {
                         <h1 className='text-xl font-semibold'>Bem vindo(a) de volta {user?.nome}</h1>
                         <p className='text-gray-400 text-sm'>Veja suas demandas para essa semana:</p>
                         <div className='flex flex-row mt-4 gap-4'>
-                            <div className='dark:bg-[#101c22b2] bg-[#d8d8d83c] gap-1 w-[33.3%] flex flex-col p-6 rounded-lg cursor-pointer'>
+                            <div className='dark:bg-[#101c22b2] bg-[#F6F7F8] gap-1 w-[33.3%] flex flex-col p-6 rounded-lg cursor-pointer'>
                                 <FontAwesomeIcon className='text-xl h-4 p-3 rounded-md mb-2 text-[#38BDF8] bg-[#D0EDFB] dark:bg-[#0F2A36]' icon={faListCheck}></FontAwesomeIcon>
                                 <p className='font-semibold dark:text-gray-200'>Treta entre design e dev</p>
                                 <p className='text-xs text-gray-500'>Task: design quer um componente novo, mas explode o prazo</p>
                             </div>
-                            <div className='dark:bg-[#101c22b2] bg-[#d8d8d83c] w-[33.3%] gap-1 flex flex-col p-6 rounded-lg cursor-pointer'>
+                            <div className='dark:bg-[#101c22b2] bg-[#F6F7F8] w-[33.3%] gap-1 flex flex-col p-6 rounded-lg cursor-pointer'>
                                 <FontAwesomeIcon className='text-xl h-4 p-3 rounded-md mb-2 text-[#38BDF8] bg-[#D0EDFB] dark:bg-[#0F2A36]' icon={faListCheck}></FontAwesomeIcon>
                                 <p className='font-semibold'>Alinhar roadmap</p>
                                 <p className='text-xs text-gray-500'>Task: Preciso que atualize o roadmap do Q2</p>
@@ -55,7 +57,7 @@ const DashColaborador = () => {
                             <div class="w-[90%] bg-gray-700 rounded-full h-2 mt-4 mb-2">
                                 <div class="bg-linear-to-r from-[#00C6FF] to-[#0072FF] h-2 rounded-full w-[75%]"></div>
                             </div>
-                            <div className='w-fit my-2 dark:bg-[#174157] bg-[#D0EDFB] cursor-pointer py-3 rounded-md text-[#13A4EC] dark:text-[#00C6FF] flex flex-row items-center justify-center px-4 gap-2'>
+                            <div onClick={() => (navigate('/PerfilColaborador'))} className='w-fit my-2 dark:bg-[#174157] bg-[#D0EDFB] cursor-pointer py-3 rounded-md text-[#13A4EC] dark:text-[#00C6FF] flex flex-row items-center justify-center px-4 gap-2'>
                                 <p className='font-semibold text-sm'>Ver perfil</p>
                                 <FontAwesomeIcon className='font-semibold' icon={faArrowRight}></FontAwesomeIcon>
                             </div>
@@ -93,7 +95,7 @@ const DashColaborador = () => {
                         <h1 className='font-semibold text-lg'>Times que recomendamos para você:</h1>
                         <div className='flex flex-row gap-4'>
                             <div className='w-[33.3%] dark:bg-[#101C22] bg-[#F6F7F8] p-6 rounded-xl gap-2 flex flex-col'>
-                                <div class="w-14 h-14 bg-[#10374A] font-bold flex justify-center items-center rounded-full text-[#13A4EC]">P</div>
+                                <div class="w-14 h-14 dark:bg-[#10374A] bg-[#C8E6F5] font-bold flex justify-center items-center rounded-full text-[#13A4EC]">P</div>
                                 <h2 className='dark:text-gray-200 font-bold'>Projeto Phoenix</h2>
                                 <p className='text-sm text-gray-500'>Assistente Inteligente de Suporte interno</p>
                                 <p className='text-sm underline text-gray-400'>IA aplicada a Produtos</p>
@@ -103,7 +105,7 @@ const DashColaborador = () => {
                             </div>
 
                             <div className='w-[33.3%] dark:bg-[#101C22] bg-[#F6F7F8] p-6 rounded-xl gap-2 flex flex-col'>
-                                <div class="w-14 h-14 bg-[#2E274C] font-bold flex justify-center items-center rounded-full text-[#A855F7]">M</div>
+                                <div class="w-14 h-14 dark:bg-[#2E274C] bg-[#E6D6F7] font-bold flex justify-center items-center rounded-full text-[#A855F7]">M</div>
                                 <h2 className='dark:text-gray-200 font-bold'>Onboarding Maverick</h2>
                                 <p className='text-sm text-gray-500'>Melhoria completa do onboarding.</p>
                                 <p className='text-sm underline text-gray-400'>Design Thinking</p>
@@ -113,7 +115,7 @@ const DashColaborador = () => {
                             </div>
 
                             <div className='w-[33.3%] dark:bg-[#101C22] bg-[#F6F7F8] p-6 rounded-xl gap-2 flex flex-col'>
-                                <div class="w-14 h-14 bg-[#103B3C] font-bold flex justify-center items-center rounded-full text-[#14B7A5]">D</div>
+                                <div class="w-14 h-14 dark:bg-[#103B3C] bg-[#C8EAE7] font-bold flex justify-center items-center rounded-full text-[#14B7A5]">D</div>
                                 <h2 className='dark:text-gray-200 font-bold'>Métrics Dash</h2>
                                 <p className='text-sm text-gray-500'>Dashboard de Métricas do Time Ágil.</p>
                                 <p className='text-sm underline text-gray-400'>Gestão / Agilidade</p>
