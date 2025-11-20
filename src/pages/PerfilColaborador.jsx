@@ -3,12 +3,15 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import UserFace from "../assets/img/userface.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMapPin, faRocket, faSliders, faPeopleGroup } from '@fortawesome/free-solid-svg-icons';
+import { faMapPin, faRocket, faSliders, faPeopleGroup, faTrophy, faCircleCheck, faUserPlus } from '@fortawesome/free-solid-svg-icons';
+import phoenix from '../assets/img/ph.jpg'
+import {useNavigate} from "react-router-dom";
 
 const PerfilColaborador = () => {
     const [user, setUser] = useState({})
     const [skill, setSKill] = useState([])
     const [showSkill, setshowSkill] = useState("todas")
+    const navigate = useNavigate()
 
     useEffect(() => {
         const GetUser = async () => {
@@ -85,6 +88,19 @@ const PerfilColaborador = () => {
                             )): null}
                         </div>
                     </div>
+
+                    {/* Secção Projeto */}
+                    <div className='dark:bg-[#182832] p-8 flex flex-col rounded-lg'>
+                        <h1 className='text-xl text-gray-100 font-semibold mb-6'>Projeto Atual</h1>
+                        <div className='w-[50%] rounded-md'>
+                            <img className='rounded-lg mb-3' src={phoenix}></img>
+                            <h2 className='text-lg text-gray-100 font-semibold'>Time Phoenix</h2>
+                            <p className='text-xs text-gray-400'>Designer Líder de UX para a plataforma de análise empresarial (analytics) de próxima geração</p>
+                            <div onClick={() => navigate('/TimesColaborador')} className='w-fit my-2 cursor-pointer rounded-md dark:bg-[#174157] bg-[#E2E8F0] flex flex-row items-center justify-center gap-2 py-3 px-6'>
+                                <p className='font-semibold text-sm'>Ver Time</p>
+                            </div>
+                        </div>    
+                    </div>
                 </div>
 
                 <div className='flex flex-col w-[35%] mr-8 ml-4 gap-6'>
@@ -102,6 +118,32 @@ const PerfilColaborador = () => {
                         <div className='flex flex-row text-gray-300 text-sm gap-4'>
                             <FontAwesomeIcon className='text-lg text-[#00C6FF] mt-2' icon={faPeopleGroup}></FontAwesomeIcon>
                             <p>Orientar designers juniores e contribuir para o crescimento da comunidade de design.</p>
+                        </div>
+                    </div>
+
+                    {/* Seção Objetivos Carreira */}
+                    <div className='dark:bg-[#182832] p-8 rounded-lg'>
+                        <h1 className='text-xl text-gray-100 font-semibold mb-4'>Atividade Recente</h1>
+                        <div className='flex flex-row text-gray-300 text-sm gap-3 mb-6'>
+                            <FontAwesomeIcon className='text-lg bg-[#1C3947] p-4 rounded-full text-[#00C6FF] mt-2' icon={faTrophy}></FontAwesomeIcon>
+                            <div className='flex flex-col'>
+                                <p>Ganhou o distintivo (ou medalha) 'Protótipos Avançados</p>
+                                <p className='text-gray-500'>2d atrás</p>
+                            </div>
+                        </div>
+                        <div className='flex flex-row text-gray-300 text-sm gap-3 mb-6 items-center'>
+                            <FontAwesomeIcon className='text-lg bg-[#1C3947] px-4 py-[1em] rounded-full text-[#00C6FF] mt-2' icon={faCircleCheck}></FontAwesomeIcon>
+                            <div className='flex flex-col'>
+                                <p>Concluiu o Sprint 4 do Projeto Phoenix</p>
+                                <p className='text-gray-500'>4d atrás</p>
+                            </div>
+                        </div>
+                        <div className='flex flex-row text-gray-300 text-sm gap-3 items-center'>
+                            <FontAwesomeIcon className='text-lg bg-[#3A2949] px-4 py-[1em] rounded-full text-[#C084FC] mt-2' icon={faUserPlus}></FontAwesomeIcon>
+                            <div className='flex flex-col'>
+                                <p>Juntou-se à Equipe da Guilda de Inovação.</p>
+                                <p className='text-gray-500'>6d atrás</p>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "nome": "Projeto Phoenix",
+    "status": "Em andamento",
+    "area": "IA",
+    "progresso": 45,
+    "habilidades": ["Python", "TensorFlow", "ML"],
+    "lider": "Mariana Silva"
+  },
+  {
+    "id": 2,
+    "nome": "Mobile App V2",
+    "status": "Em revisão",
+    "area": "UX",
+    "progresso": 60,
+    "habilidades": ["React", "JavaScript", "Figma"],
+    "lider": "Thiago Rocha"
+  },
+  {
+    "id": 3,
+    "nome": "Plataforma Analytics",
+    "status": "Concluído",
+    "area": "Backend",
+    "progresso": 80,
+    "habilidades": ["Python", "SQL"],
+    "lider": "Camila Duarte"
+  },
+  {
+    "id": 4,
+    "nome": "Assistente IA Interno",
+    "status": "Em andamento",
+    "area": "Produto",
+    "progresso": 95,
+    "habilidades": ["PyTorch", "NLP"],
+    "lider": "Fernanda Souza"
+  }
+]

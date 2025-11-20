@@ -11,7 +11,6 @@ import user2 from "../assets/img/jane.png"
 import user3 from "../assets/img/mike.png"
 import {useNavigate} from "react-router-dom";
 
-
 const DashColaborador = () => {
     const [user, setUser] = useState({})
     const navigate = useNavigate();

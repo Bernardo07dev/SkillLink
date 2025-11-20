@@ -30,7 +30,7 @@ const Sidebar = (props) => {
                 </div>
             </section>
 
-            <section onClick={() => navigate('/DashColaborador')} className={`${props.estado == 'dash' ?  'dark:bg-[#174157] bg-[#D0EDFB]' : ''} flex flex-row items-center gap-2 px-4 mx-6 rounded-xl mb-1 cursor-pointer`}>
+            <section onClick={() => navigate('/DashColaborador')} className={`${props.estado == 'dash' ?  'dark:bg-[#174157] bg-[#D0EDFB]' : ''} flex flex-row items-center gap-2 px-4 mx-6 rounded-xl cursor-pointer`}>
                 <FontAwesomeIcon className={`${props.estado == 'dash' ?  'dark:text-[#38BDF8] text-[#13A4EC]' : 'dark:text-gray-300'} text-[18px] cursor-pointer py-3`} icon={faChartLine}></FontAwesomeIcon>
                 <p className={`${props.estado == 'dash' ?  'dark:text-[#38BDF8] text-[#13A4EC]' : 'dark:text-gray-300'} text-sm font-medium`}>Dashboard</p>
             </section>
