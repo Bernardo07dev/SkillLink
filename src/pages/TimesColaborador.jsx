@@ -11,6 +11,9 @@ const TimesColaborador = () => {
     const [times, setTimes] = useState([])
     const [filtrados, setFiltrados] = useState([]);
 
+    const [areaTemp, setAreaTemp] = useState('todas');
+    const [statusTemp, setStatusTemp] = useState('todos');
+
     useEffect(() => {
         const GetUser = async () => {
             const res = await axios.get('teams.json')
@@ -30,19 +33,23 @@ const TimesColaborador = () => {
     }
 
 
-    const GetFilter = () => {
+    const aplicarFiltros = () => {
+        setArea(areaTemp);
+        setStatus(statusTemp);
+    };
+
     useEffect(() => {
         if (!times || times.length === 0) return;
 
-        const getProject = times.filter((p) => {
-            const statusOk = getstatus === "todos" || p.status === getstatus;
+        const filtro = times.filter((p) => {
             const areaOk = getarea === "todas" || p.area === getarea;
-            return statusOk && areaOk;
+            const statusOk = getstatus === "todos" || p.status === getstatus;
+            return areaOk && statusOk;
         });
 
-        setFiltrados(getProject);
-    
-    }, [])}
+        setFiltrados(filtro);
+
+    }, [getarea, getstatus, times]);
 
 
     return(
@@ -53,32 +60,34 @@ const TimesColaborador = () => {
                 <div className='bg-[#182832] flex flex-row justify-start px-8 py-6 rounded-xl gap-4'>
                     <div className='w-[40%]'>
                         <p className='mb-2'>Área</p>
-                        <select className="dark:bg-[#101C22] w-full px-6 text-gray-400 font-medium text-sm py-3 rounded-lg border-none" onChange={(e) => setArea(e.target.value)} value={getarea}>
-                            <option>Todas</option>
-                            <option >Backend</option>
-                            <option >Produto</option>
-                            <option >UX/UI</option>
-                            <option >UX/UI</option>
+                        <select className="dark:bg-[#101C22] w-full px-6 text-gray-400 font-medium text-sm py-3 rounded-lg border-none" onChange={(e) => setAreaTemp(e.target.value)} value={areaTemp}>
+                            <option value="todas">Todas</option>
+                            <option value="Inteligência Artificial">Inteligência Artificial</option>
+                            <option value="UX/UI">UX/UI</option>
+                            <option value="Dados">Dados</option>
+                            <option value="DevOps">DevOps</option>
+                            <option value="Backend">Backend</option>
+                            <option value="Produto">Produto</option>
                         </select>
                     </div>
 
                     <div className='w-[40%]'>
                         <p className='mb-2 text-gray-200'>Status</p>
-                        <select className="dark:bg-[#101C22] w-full px-6 text-gray-400 font-medium text-sm py-3 rounded-lg border-none" onChange={(e) => setStatus(e.target.value)} value={getstatus}>
-                            <option>Todos</option>
-                            <option >Ativo</option>
-                            <option >Em formação</option>
-                            <option >Concluído</option>
+                        <select className="dark:bg-[#101C22] w-full px-6 text-gray-400 font-medium text-sm py-3 rounded-lg border-none" onChange={(e) => setStatusTemp(e.target.value)} value={statusTemp}>
+                            <option value="todos">Todos</option>
+                            <option value="Ativo">Ativo</option>
+                            <option value="Em formação">Em formação</option>
+                            <option value="Concluído">Concluído</option>
                         </select>
                     </div>
 
                     <div className='px-12 cursor-pointer gap-1 mt-8 rounded-lg flex flex-row justify-start items-center bg-[#13A4EC]'>
                         <FontAwesomeIcon className='' icon={faArrowDownWideShort}></FontAwesomeIcon>
-                        <p onClick={GetFilter} className='text-sm font-medium'>Aplicar</p>
+                        <p onClick={aplicarFiltros} className='text-sm font-medium'>Aplicar</p>
                     </div>
                 </div>
 
-                {chunkArray(filtrados, 4).map((grupo, index) => (
+                {filtrados.length === 0 ? <p className="text-gray-400 text-sm font-semibold mt-6 mx-4">Nenhum time encontrado...</p> : chunkArray(filtrados, 4).map((grupo, index) => (
                     <div key={index} className="flex flex-row">
                         {grupo.map((item, i) => (
                             <div key={i} className='bg-[#182832] p-6 rounded-lg w-[25%] flex flex-col justify-around mx-2 my-6'>
