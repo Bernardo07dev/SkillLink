@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "nome": "Team Phoenix",
+    "area": "Inteligência Artificial",
+    "status": "Ativo",
+    "progresso": 72,
+    "lider": "Mariana Oliveira",
+    "habilidades": ["Python", "TensorFlow", "ML"],
+    "membros": 3,
+    "projetos": [
+      "Modelo de Previsão de Churn",
+      "Assistente IA Interno"
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "UI Masters",
+    "area": "UX/UI",
+    "status": "Em formação",
+    "progresso": 35,
+    "lider": "Fernanda Souza",
+    "habilidades": ["Figma", "System", "Acessibilidade"],
+    "membros": 2,
+    "projetos": [
+      "Redesign do App Mobile",
+      "Teste de Usabilidade Programa X"
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "Data Squad",
+    "area": "Dados",
+    "status": "Ativo",
+    "progresso": 81,
+    "lider": "Thiago Carvalho",
+    "habilidades": ["Python", "SQL", "ETL"],
+    "membros": 3,
+    "projetos": [
+      "Pipeline de Dados V2",
+      "Dashboard de Insights para Diretoria"
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "DevOps Force",
+    "area": "DevOps",
+    "status": "Concluído",
+    "progresso": 100,
+    "lider": "Eduardo Lima",
+    "habilidades": ["Docker", "Kubernetes", "CI/CD"],
+    "membros": 2,
+    "projetos": [
+      "Migração para Kubernetes",
+      "Pipeline CI/CD Automatizado"
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "Backend Titans",
+    "area": "Backend",
+    "status": "Ativo",
+    "progresso": 64,
+    "lider": "Roberto Silva",
+    "habilidades": ["Node.js", "Java", "APIs REST"],
+    "membros": 2,
+    "projetos": [
+      "API de Autenticação",
+      "Serviço de Pagamentos V3"
+    ]
+  },
+  {
+    "id": 6,
+    "nome": "Product Vision",
+    "area": "Produto",
+    "status": "Em formação",
+    "progresso": 52,
+    "lider": "Camila Dias",
+    "habilidades": ["Roadmapping", "Customer", "Agile"],
+    "membros": 2,
+    "projetos": [
+      "Roadmap 2025",
+      "Discovery - Solução SkillLink"
+    ]
+  }
+]

@@ -71,7 +71,7 @@ const ProjetosColaborador = () => {
                                 <p className='text-sm text-gray-300'><strong>Líder:</strong> {valor.lider}</p>
                                 <button className='mt-4 font-semibold text-sm bg-[#13A4EC] py-2 rounded-md'>Ver Detalhes</button>
                             </div>
-                        )) : ( <p className='my-6 mx-2 text-sm text-gray-300'>Carregando projetos...</p> )}
+                        )) : ( <p className='my-6 mx-2 text-sm text-gray-300'>Nenhum projeto encontrado...</p> )}
                     </div>
                 </div>
             </main>
