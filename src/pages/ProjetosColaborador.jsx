@@ -40,14 +40,14 @@ const ProjetosColaborador = () => {
                 <p className="text-sm font-medium text-gray-400">Acompanhe o andamento das iniciativas e participe dos projetos ativos da equipe.</p>
                 <div className='mt-4'>
                     {/* Select Status */}
-                    <select className="dark:bg-[#101C22] bg-white mr-4 px-4 text-gray-400 font-medium text-sm p-3 rounded-full border-none" onChange={(e) => setStatus(e.target.value)} value={getstatus}>
+                    <select className="dark:bg-[#182832] bg-white mr-4 px-4 text-gray-400 font-medium text-sm p-3 rounded-full border-none" onChange={(e) => setStatus(e.target.value)} value={getstatus}>
                         <option value="todos">Status: Todos</option>
                         <option value="Em andamento">Status: Em andamento</option>
                         <option value="Em revisão">Status: Em revisão</option>
                         <option value="Concluído">Status: Concluído</option>
                     </select>
 
-                    <select className="dark:bg-[#101C22] bg-white px-6 text-gray-400 font-medium text-sm p-3 rounded-full border-none" onChange={(e) => setArea(e.target.value)} value={getarea}>
+                    <select className="dark:bg-[#182832] bg-white px-6 text-gray-400 font-medium text-sm p-3 rounded-full border-none" onChange={(e) => setArea(e.target.value)} value={getarea}>
                         <option value="todas">Área: Todas</option>
                         <option value="UX">Área: UX</option>
                         <option value="Backend">Área: Backend</option>
@@ -55,9 +55,9 @@ const ProjetosColaborador = () => {
                         <option value="Produto">Área: Produto</option>
                     </select>
 
-                    <div className='flex flex-row'>
+                    <div className='flex flex-col xl:flex-row'>
                         {filtrados && filtrados.length > 0 ? filtrados.map((valor, i) => (
-                            <div className='dark:bg-[#182832] bg-white p-6 rounded-lg w-[25%] flex flex-col justify-around mx-2 my-6'>
+                            <div className='dark:bg-[#182832] bg-white p-6 rounded-lg xl:w-[25%] lg:w-[35%] md:w-[50%] flex flex-col justify-around mx-2 my-6'>
                                 <div className='flex flex-row'>
                                     <p className='w-[75%] tracking-tighter text-lg font-semibold dark:text-gray-200' key={i}>{valor.nome}</p>
                                         <div className={`${valor.status === 'Concluído' ? 'dark:bg-[#1A473B] bg-[#c8ead9] text-[#15d65c] dark:text-[#48D97E]' : valor.status === 'Em andamento' ? 'dark:bg-[#42442A] bg-[#eff0afc7] text-[#E8BF17]' : valor.status === 'Em revisão' ? 'dark:bg-[#1F3A59] bg-[#bccaefc7] text-[#5898E7]' : 'bg-gray-800 text-gray-100'} text-xs font-semibold flex justify-center h-[30px] items-center rounded-full w-[55%]`}>{valor.status}</div>

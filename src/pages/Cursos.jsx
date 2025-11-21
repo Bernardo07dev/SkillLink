@@ -7,8 +7,8 @@ import user2 from "../assets/img/jane.png"
 const Cursos = () => {
     return(
         <Structure estado="cursos">
-            <main className="p-8 flex flex-row gap-6">
-                <section className='w-[70%]'>
+            <main className="p-8 flex flex-col lg:flex-row gap-6">
+                <section className='w-full lg:w-[70%]'>
                     <h1 className="mt-4 mb-2 text-2xl font-semibold dark:text-gray-100">UX/UI Fundamentals + Design Thinking</h1>
                     <p className="text-sm font-medium text-gray-400 mb-4">Acompanhe os times dos quais você faz parte e visualize o progresso de cada iniciativa em tempo real. 
                     Entenda como cada membro contribui para os resultados, identifique pontos de melhoria, fortaleça a colaboração 
@@ -16,7 +16,7 @@ const Cursos = () => {
                     ajuda você a trabalhar com mais contexto, alinhamento e impacto dentro da equipe.</p>
                     <div className='dark:bg-[#182832] bg-white p-8 rounded-2xl'>
                         <h1 className='text-lg font-semibold dark:text-gray-200'>Modulos do curso</h1>
-                        <div className='mt-4 flex flex-row justify-between p-6 border-2 dark:border-gray-700 border-gray-100 rounded-2xl w-full'>
+                        <div className='mt-4 flex flex-col gap-4 lg:flex-row justify-between p-6 border-2 dark:border-gray-700 border-gray-100 rounded-2xl w-full'>
                             <div className='flex flex-row gap-4 items-center'>
                                 <FontAwesomeIcon className='dark:bg-[#1A473B] bg-[#c8ead9] text-[#22C55E] p-3 text-xl rounded-full' icon={faCheck}></FontAwesomeIcon>
                                 <div>
@@ -26,7 +26,7 @@ const Cursos = () => {
                             </div>
                             <button className='py-2 px-4 rounded-lg bg-gray-100 dark:bg-[#283339] text-gray-600 dark:text-gray-100 text-sm font-medium'>Ver novamente</button>
                         </div>
-                        <div className='mt-4 flex flex-row justify-between p-6 border-2 dark:border-gray-700 border-gray-100 rounded-2xl w-full'>
+                        <div className='mt-4 flex gap-4 lg:flex-row flex-col justify-between p-6 border-2 dark:border-gray-700 border-gray-100 rounded-2xl w-full'>
                             <div className='flex flex-row gap-4 items-center'>
                                 <FontAwesomeIcon className='dark:bg-[#1F3A59] bg-[#bccaefc7] text-[#13a4ec7b] dark:text-[#13A4EC] p-3 text-xl rounded-full' icon={faCirclePlay}></FontAwesomeIcon>
                                 <div>
@@ -36,7 +36,7 @@ const Cursos = () => {
                             </div>
                             <button className='py-2 px-4 rounded-lg bg-[#13A4EC] text-gray-100 text-sm font-medium'>Continuar</button>
                         </div>
-                        <div className='mt-4 flex flex-row justify-between p-6 border-2 dark:border-gray-700 border-gray-100 rounded-2xl w-full'>
+                        <div className='mt-4 flex gap-4 lg:flex-row flex-col justify-between p-6 border-2 dark:border-gray-700 border-gray-100 rounded-2xl w-full'>
                             <div className='flex flex-row gap-4 items-center'>
                                 <FontAwesomeIcon className='dark:bg-[#283339] bg-[#E2E8F0] text-white p-3 text-xl rounded-full' icon={faCircle}></FontAwesomeIcon>
                                 <div>
@@ -49,7 +49,7 @@ const Cursos = () => {
                     </div>
                 </section>
 
-                <section className='w-[30%] my-12'>
+                <section className='w-full lg:w-[30%] my-12'>
                     <div className='dark:bg-[#182832] bg-white p-8 rounded-xl mb-6'>
                         <div className='flex flex-row justify-between mb-4'>
                             <p className='text-sm text-gray-400 font-medium'>Seu progresso</p>
@@ -68,8 +68,8 @@ const Cursos = () => {
                     <div className='dark:bg-[#182832] bg-white p-8 rounded-xl mb-6'>
                         <h1 className='dark:text-gray-100 font-medium mb-4'>Instrutor</h1>
                         <div className='flex flex-row gap-4'>
-                            <img className='w-[20%] rounded-full' src={user2}></img>
-                            <div>
+                            <img className='sm:w-[20%] w-[10%] h-[10%] sm:h-[20%] object-contain rounded-full' src={user2}></img>
+                            <div className='w-[80%]'>
                                 <h1 className='text-lg font-semibold text-gray-600 dark:text-gray-200'>Yara Martins</h1>
                                 <p className='font-medium text-gray-400 text-sm'>Líder em Design e UX</p>
                             </div>
