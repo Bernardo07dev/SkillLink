@@ -20,7 +20,7 @@ const Structure = (props) => {
 
     return(
         <main className={`${dark ? "dark" : ""} transition-colors min-w-full min-h-screen flex flex-col bg-[#F6F7F8] dark:bg-[#101B21]`}>
-            <header className="dark:bg-[#101B21] shadow-xs bg-white w-full z-2 sm:px-8  fixed flex flex-row justify-between py-3 px-16 border-b-[0.5px] border-[#FFF] dark:border-[#63667c4d]">
+            <header className="dark:bg-[#101B21] shadow-xs bg-white w-full z-2 sm:px-8 fixed flex flex-row justify-between py-3 px-4 border-b-[0.5px] border-[#FFF] dark:border-[#63667c4d]">
                 <img className="h-10 w-auto object-contain cursor-pointer" src={Logo}></img>
                 <div className="md:w-[20%] w-[60%] flex flex-row justify-end gap-4 items-center">
                     <div onClick={() => SetTheme()} className={`${dark ? "bg-[#ffffff1c]" : "bg-[#1313132d]"} h-8 w-16 cursor-pointer rounded-full flex items-center`}>
