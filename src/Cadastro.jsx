@@ -12,7 +12,7 @@ const Cadastro = () => {
                 <div className="absolute inset-0 bg-linear-to-b from-[#00000000] to-[#000101]"></div>
             </div>
 
-            <section className="w-[50%] shadow-2xl shadow-[#2c2c2c3c] border border-gray-800 rounded-lg flex flex-col justify-center px-[10%] backdrop-blur-sm items-center bg-[#0e1a1fd0] z-2 text-center py-22 text-white">
+            <section className="lg:w-[50%] md:w-[70%] w-full shadow-2xl shadow-[#2c2c2c3c] border border-gray-800 rounded-lg flex flex-col justify-center px-[5%] lg:px-[10%] backdrop-blur-sm items-center bg-[#0e1a1fd0] z-2 text-center py-22 text-white">
                 <img src={Logo} className="w-[17%] mb-4"></img>
                 <h1 className="tracking-tighter text-3xl font-bold mb-2">Crie sua conta SkillLink</h1>
                 <p className="text-gray-400 mb-2 text-sm">Crie sua conta SkillLink para continuar</p>
