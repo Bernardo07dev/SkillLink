@@ -6,9 +6,9 @@ const MenuLanding = () => {
     const navigate = useNavigate();
 
     return (
-        <header className="w-full fixed flex flex-row justify-around bg-[#cacaca07] z-100 items-center backdrop-blur-lg text-white text-sm px-8 py-4">
+        <header className="w-full fixed flex flex-row justify-around bg-[#cacaca07] z-2 items-center backdrop-blur-lg text-white text-sm px-8 py-4">
             <div className="w-[50%] flex flex-row justify-start items-center">
-                <img className="w-[7.5%]" src={Logo}></img>
+                <img className="w-10 sm:w-12 md:w-14" src={Logo}></img>
             </div>
 
             <div className="w-[50%] flex flex-row justify-end items-center gap-4 mr-4">

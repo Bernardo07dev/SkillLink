@@ -27,19 +27,19 @@ const DashColaborador = () => {
 
     return(
         <Structure estado="dash">
-            <main className='flex flex-row w-full p-8 gap-6'>
-                <section className='flex flex-col w-[70%] gap-8'>
+            <main className='flex lg:flex-row flex-col w-full p-8 gap-6'>
+                <section className='flex flex-col w-full lg:w-[70%] gap-8'>
                     {/* Seção Demandas */}
                     <div className='dark:bg-[#182832] shadow-xs bg-white p-8 justify-start items-start rounded-lg'>
                         <h1 className='text-xl font-semibold'>Bem vindo(a) de volta {user?.nome}</h1>
                         <p className='text-gray-400 text-sm'>Veja suas demandas para essa semana:</p>
-                        <div className='flex flex-row mt-4 gap-4'>
-                            <div className='dark:bg-[#101c22b2] bg-[#F6F7F8] gap-1 w-[33.3%] flex flex-col p-6 rounded-lg cursor-pointer'>
+                        <div className='flex flex-col md:flex-row mt-4 gap-4'>
+                            <div className='dark:bg-[#101c22b2] bg-[#F6F7F8] gap-1 w-full md:w-[33.3%] flex flex-col p-6 rounded-lg cursor-pointer'>
                                 <FontAwesomeIcon className='text-xl h-4 p-3 rounded-md mb-2 text-[#38BDF8] bg-[#D0EDFB] dark:bg-[#0F2A36]' icon={faListCheck}></FontAwesomeIcon>
                                 <p className='font-semibold dark:text-gray-200'>Treta entre design e dev</p>
                                 <p className='text-xs text-gray-500'>Task: design quer um componente novo, mas explode o prazo</p>
                             </div>
-                            <div className='dark:bg-[#101c22b2] bg-[#F6F7F8] w-[33.3%] gap-1 flex flex-col p-6 rounded-lg cursor-pointer'>
+                            <div className='dark:bg-[#101c22b2] bg-[#F6F7F8] w-full md:w-[33.3%] gap-1 flex flex-col p-6 rounded-lg cursor-pointer'>
                                 <FontAwesomeIcon className='text-xl h-4 p-3 rounded-md mb-2 text-[#38BDF8] bg-[#D0EDFB] dark:bg-[#0F2A36]' icon={faListCheck}></FontAwesomeIcon>
                                 <p className='font-semibold'>Alinhar roadmap</p>
                                 <p className='text-xs text-gray-500'>Task: Preciso que atualize o roadmap do Q2</p>
@@ -48,7 +48,7 @@ const DashColaborador = () => {
                     </div>
 
                     {/* Seção Projetos */}
-                    <div className='dark:bg-[#182832] shadow-xs bg-white w-full p-8 rounded-lg flex flex-row gap-6 justify-center'>
+                    <div className='dark:bg-[#182832] shadow-xs bg-white w-full p-8 rounded-lg flex flex-col md:flex-row gap-6 justify-center'>
                         <div className='bg-linear-to-r from-[#00C6FF] to-[#0072FF] w-[45%] rounded-lg'></div>
                         <div className='w-[55%] flex flex-col'>
                             <h1 className='font-semibold text-lg mb-1'>Complete seu perfil: <strong>75% concluído</strong></h1>
@@ -66,8 +66,8 @@ const DashColaborador = () => {
                     {/* Seção Recomendações */}
                     <div className='dark:bg-[#182832] shadow-xs bg-white w-full p-8 rounded-lg flex flex-col gap-6 justify-start'>
                         <h1 className='font-semibold text-lg'>Cursos que recomendamos para você:</h1>
-                        <div className='flex flex-row gap-6'>
-                            <div className='w-[50%] border-2 shadow-sm border-[#c0bcff22] p-6 rounded-xl gap-2 flex flex-col'>
+                        <div className='flex flex-col md:flex-roww gap-6'>
+                            <div className='md:w-[50%] w-full border-2 shadow-sm border-[#c0bcff22] p-6 rounded-xl gap-2 flex flex-col'>
                                 <FontAwesomeIcon className='text-4xl mb-2 text-[#13A4EC]' icon={faTachographDigital}></FontAwesomeIcon>
                                 <h2 className='dark:text-gray-200 text-gray-600 font-bold'>UX/UI Fundamentals + Design Thinking</h2>
                                 <p className='text-sm text-gray-500'>Aprenda os princípios essenciais de experiência do usuário, interface e prototipação.</p>
@@ -77,7 +77,7 @@ const DashColaborador = () => {
                                 </div>
                             </div>
 
-                            <div className='w-[50%] border-2 shadow-sm border-[#c0bcff22] p-6 rounded-xl gap-2 flex flex-col'>
+                            <div className='md:w-[50%] w-full border-2 shadow-sm border-[#c0bcff22] p-6 rounded-xl gap-2 flex flex-col'>
                                 <FontAwesomeIcon className='text-4xl mb-2 text-[#13A4EC]' icon={faBrain}></FontAwesomeIcon>
                                 <h2 className='dark:text-gray-200 text-gray-600 font-bold'>Introdução à Inteligência Artificial aplicada a Produtos</h2>
                                 <p className='text-sm text-gray-500'>Entenda como a IA transforma produtos digitais, explore casos de uso práticos e aprenda a identificar oportunidades</p>
@@ -92,8 +92,8 @@ const DashColaborador = () => {
                     {/* Seção Times */}
                     <div className='dark:bg-[#182832] shadow-xs bg-white w-full p-8 rounded-lg flex flex-col gap-6 justify-start'>
                         <h1 className='font-semibold text-lg'>Times que recomendamos para você:</h1>
-                        <div className='flex flex-row gap-4'>
-                            <div className='w-[33.3%] dark:bg-[#101C22] bg-[#F6F7F8] p-6 rounded-xl gap-2 flex flex-col'>
+                        <div className='flex flex-col md:flex-row gap-4'>
+                            <div className='md:w-[33.3%] w-full dark:bg-[#101C22] bg-[#F6F7F8] p-6 rounded-xl gap-2 flex flex-col'>
                                 <div class="w-14 h-14 dark:bg-[#10374A] bg-[#C8E6F5] font-bold flex justify-center items-center rounded-full text-[#13A4EC]">P</div>
                                 <h2 className='dark:text-gray-200 font-bold'>Projeto Phoenix</h2>
                                 <p className='text-sm text-gray-500'>Assistente Inteligente de Suporte interno</p>
@@ -103,7 +103,7 @@ const DashColaborador = () => {
                                 </div>
                             </div>
 
-                            <div className='w-[33.3%] dark:bg-[#101C22] bg-[#F6F7F8] p-6 rounded-xl gap-2 flex flex-col'>
+                            <div className='md:w-[33.3%] w-full dark:bg-[#101C22] bg-[#F6F7F8] p-6 rounded-xl gap-2 flex flex-col'>
                                 <div class="w-14 h-14 dark:bg-[#2E274C] bg-[#E6D6F7] font-bold flex justify-center items-center rounded-full text-[#A855F7]">M</div>
                                 <h2 className='dark:text-gray-200 font-bold'>Onboarding Maverick</h2>
                                 <p className='text-sm text-gray-500'>Melhoria completa do onboarding.</p>
@@ -113,7 +113,7 @@ const DashColaborador = () => {
                                 </div>
                             </div>
 
-                            <div className='w-[33.3%] dark:bg-[#101C22] bg-[#F6F7F8] p-6 rounded-xl gap-2 flex flex-col'>
+                            <div className='md:w-[33.3%] w-full dark:bg-[#101C22] bg-[#F6F7F8] p-6 rounded-xl gap-2 flex flex-col'>
                                 <div class="w-14 h-14 dark:bg-[#103B3C] bg-[#C8EAE7] font-bold flex justify-center items-center rounded-full text-[#14B7A5]">D</div>
                                 <h2 className='dark:text-gray-200 font-bold'>Métrics Dash</h2>
                                 <p className='text-sm text-gray-500'>Dashboard de Métricas do Time Ágil.</p>
@@ -126,7 +126,7 @@ const DashColaborador = () => {
                     </div>
                 </section>
 
-                <section className='flex flex-col w-[30%] gap-8'>
+                <section className='flex flex-col w-full md:w-[30%] gap-8'>
                     {/* Secction Feat com time */}
                     <div className='dark:bg-[#182832] shadow-xs bg-white p-8 justify-start items-center rounded-lg'>
                         <h1 className='font-semibold text-lg'>Seu feat com time:</h1>
