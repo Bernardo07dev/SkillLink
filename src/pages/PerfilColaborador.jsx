@@ -41,7 +41,7 @@ const PerfilColaborador = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='sm:w-[50%] w-full flex flex-row gap-4 justify-start sm:justify-end items-center'>
+                    <div className='sm:w-[50%] w-full flex flex-row gap-4 justify-center md:justify-end items-center'>
                         <button className='dark:bg-[#174157] text-sm font-semibold px-6 bg-[#D0EDFB] cursor-pointer py-3 rounded-md text-[#13A4EC] dark:text-[#00C6FF]'>Editar Perfil</button>
                         <button className='dark:bg-[#13A4EC] text-sm font-semibold px-6 bg-[#D0EDFB] cursor-pointer py-3 rounded-md text-[#13A4EC] dark:text-white'>Compartilhar Perfil</button>
                     </div>
@@ -58,7 +58,7 @@ const PerfilColaborador = () => {
                     {/* Secção Habilidade */}
                     <div className='flex flex-col p-8 dark:bg-[#182832] bg-white rounded-lg'>
                         <h1 className='text-xl dark:text-gray-100 font-semibold mb-1'>Habilidades</h1>
-                        <div className='flex flex-row mt-2 mb-6 gap-2'>
+                        <div className='flex flex-col lg:flex-row mt-2 mb-6 gap-2'>
                             <button onClick={() => setshowSkill('todas')} class={`${showSkill === 'todas' ? 'bg-[#13A4EC] dark:text-black text-white' : 'dark:bg-[#283339] bg-gray-100 '} px-5 py-2 text-sm cursor-pointer rounded-lg font-medium`}>Todas</button>
                             <button onClick={() => setshowSkill('hard')} class={`${showSkill === 'hard' ? 'bg-[#13A4EC] dark:text-black text-white' : 'dark:bg-[#283339] bg-gray-100'} px-5 py-2 text-sm cursor-pointer rounded-lg font-medium`}>HardSkills</button>
                             <button onClick={() => setshowSkill('soft')} class={`${showSkill === 'soft' ? 'bg-[#13A4EC] dark:text-black text-white' : 'dark:bg-[#283339] bg-gray-100'} px-5 py-2 text-sm cursor-pointer rounded-lg font-medium`}>SoftSkills</button>
