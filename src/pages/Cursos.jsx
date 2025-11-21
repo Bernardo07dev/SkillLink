@@ -68,7 +68,7 @@ const Cursos = () => {
                     <div className='dark:bg-[#182832] bg-white p-8 rounded-xl mb-6'>
                         <h1 className='dark:text-gray-100 font-medium mb-4'>Instrutor</h1>
                         <div className='flex flex-row gap-4'>
-                            <img className='sm:w-[20%] w-[10%] h-[10%] sm:h-[20%] object-contain rounded-full' src={user2}></img>
+                            <img className='md:w-[20%] w-[10%] h-[10%] md:h-[20%] object-contain rounded-full' src={user2}></img>
                             <div className='w-[80%]'>
                                 <h1 className='text-lg font-semibold text-gray-600 dark:text-gray-200'>Yara Martins</h1>
                                 <p className='font-medium text-gray-400 text-sm'>Líder em Design e UX</p>

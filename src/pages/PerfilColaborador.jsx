@@ -29,9 +29,9 @@ const PerfilColaborador = () => {
 
     return(
         <Structure>
-            <section className='dark:bg-[#182832] bg-white flex flex-row gap-4 m-8 mb-6 p-8 rounded-lg'>
-                    <div className='w-[50%] flex flex-row gap-4'>
-                        <img className='w-[22%] h-full rounded-full' src={UserFace}></img>
+            <section className='dark:bg-[#182832] bg-white flex flex-col sm:flex-row md:gap-4 m-8 mb-6 p-8 rounded-lg'>
+                    <div className='sm:w-[50%] sm:mb-0 mb-8 w-full flex flex-row gap-4'>
+                        <img className='md:w-[22%] w-[18%] h-[80%] md:h-full rounded-full object-fill' src={UserFace}></img>
                         <div className='flex flex-col justify-center'>
                             <h1 className='text-3xl font-semibold dark:text-gray-200'>{user.nome}</h1>
                             <p className='text-gray-400 mb-1 font-medium'>{user?.experiencias?.[0]?.cargo}</p>
@@ -41,14 +41,14 @@ const PerfilColaborador = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='w-[50%] flex flex-row gap-4 justify-end items-center'>
+                    <div className='sm:w-[50%] w-full flex flex-row gap-4 justify-start sm:justify-end items-center'>
                         <button className='dark:bg-[#174157] text-sm font-semibold px-6 bg-[#D0EDFB] cursor-pointer py-3 rounded-md text-[#13A4EC] dark:text-[#00C6FF]'>Editar Perfil</button>
                         <button className='dark:bg-[#13A4EC] text-sm font-semibold px-6 bg-[#D0EDFB] cursor-pointer py-3 rounded-md text-[#13A4EC] dark:text-white'>Compartilhar Perfil</button>
                     </div>
             </section>
 
-            <section className='w-full flex flex-row'>
-                <div className='flex flex-col w-[65%] mr-2 ml-8 gap-6'>
+            <section className='w-full flex flex-col md:flex-row md:gap-0 gap-6'>
+                <div className='flex flex-col w-full md:w-[65%] px-8 md:pl-8 md:px-0 gap-6'>
                     {/* Seção Sobre */}
                     <div className='flex flex-col p-8 dark:bg-[#182832] bg-white rounded-lg'>
                         <h1 className='text-xl dark:text-gray-100 font-semibold mb-1'>Sobre</h1>
@@ -103,7 +103,7 @@ const PerfilColaborador = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col w-[35%] mr-8 ml-4 gap-6'>
+                <div className='flex flex-col w-full md:w-[35%] px-8 md:pl-4 md:pr-8 gap-6'>
                     {/* Seção Objetivos Carreira */}
                     <div className='dark:bg-[#182832] bg-white p-8 rounded-lg'>
                         <h1 className='text-xl dark:text-gray-100 font-semibold mb-4'>Objetivos de Carreira</h1>
