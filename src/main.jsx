@@ -9,6 +9,7 @@ import DashColaborador from './pages/DashColaborador.jsx'
 import PerfilColaborador from './pages/PerfilColaborador.jsx'
 import TimesColaborador from './pages/TimesColaborador.jsx'
 import ProjetosColaborador from './pages/ProjetosColaborador.jsx'
+import Cursos from './pages/Cursos.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -22,6 +23,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/TimesColaborador' element={<TimesColaborador />}></Route>
         <Route path='/ProjetosColaborador' element={<ProjetosColaborador />}></Route>
         <Route path='/PerfilColaborador' element={<PerfilColaborador />}></Route>
+        <Route path='/Cursos' element={<Cursos />}></Route>
       </Routes>
     </BrowserRouter>
   </StrictMode>,
