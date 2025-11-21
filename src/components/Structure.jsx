@@ -37,11 +37,11 @@ const Structure = (props) => {
                     <Sidebar estado={props.estado}></Sidebar>
                 </div>
 
-                <div className="flex lg:hidden w-18">
+                <div className="flex lg:hidden w-[15%]">
                     <SidebarMobile estado={props.estado}></SidebarMobile>
                 </div>
 
-                <div className="w-full my-16 dark:text-white">
+                <div className="w-[85%] my-16 dark:text-white">
                     {props.children}
                 </div>
             </section>
