@@ -17,7 +17,7 @@ const Login = () => {
         const users = res.data
         const UsersFind = users.find((user) => user.email === email && user.senha === password)
         if (UsersFind){
-            if (UsersFind.papelEquipe == "colaborador"){
+            if (UsersFind.papelEquipe == "colaborador" || UsersFind.papelEquipe == "lider"){
                 navigate('/DashColaborador')
             } else{
                 console.log("Líder")

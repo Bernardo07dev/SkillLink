@@ -8,7 +8,6 @@ import UserFace from "../assets/img/userface.png"
 const Sidebar = (props) => {
     const [user, setUser] = useState({})
     const navigate = useNavigate();
-    const [mobile, setMobile] = useState(false)
 
     useEffect(() => {
         const GetUser = async () => {

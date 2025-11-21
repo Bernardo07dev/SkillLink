@@ -5,6 +5,7 @@ import {faBell} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {useNavigate} from "react-router-dom";
 import Sidebar from "../components/Sidebar.jsx"
+import SidebarMobile from "../components/SidebarMobile.jsx"
 
 const Structure = (props) => {
     const [dark, setDark] = useState(true)
@@ -34,6 +35,10 @@ const Structure = (props) => {
             <section className="flex flex-row w-full min-h-screen">
                 <div className="w-[350px] hidden lg:flex">
                     <Sidebar estado={props.estado}></Sidebar>
+                </div>
+
+                <div className="flex lg:hidden w-18">
+                    <SidebarMobile estado={props.estado}></SidebarMobile>
                 </div>
 
                 <div className="w-full my-16 dark:text-white">
