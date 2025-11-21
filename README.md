@@ -1,10 +1,11 @@
 # SkillLink 🚀
+🔗 **[Link Deploy Vercel](https://skill-link-lemon.vercel.app/)**
 
 ## 📌 Resumo do Projeto
 
 A **SkillLink** é uma plataforma inteligente criada para resolver um dos maiores desafios do futuro do trabalho: **como conectar talentos, competências reais e demandas de equipes em constante evolução**.
 
-Usando dados e inteligência artificial, a SkillLink permite:
+Usando dados a SkillLink permite:
 
 - ✅ Mapear habilidades técnicas e comportamentais
 - ✅ Encontrar rapidamente colaboradores com o perfil ideal
@@ -27,14 +28,12 @@ A plataforma foi construída pensando no cenário futuro onde **IA, automação 
 
 ## 👤 Usuários e Senhas
 
-Atualmente, o MVP não utiliza autenticação real, mas caso seja necessário testar fluxos de login, seguem usuários de demonstração:
-
 | Email | Senha |
 |-------|-------|
-| `admin@skilllink.com` | `admin123` |
-| `user@skilllink.com` | `user123` |
+| `fernanda.souza@example.com` | `user1pass` |
+| `kleber.ferraz@example.com` | `user2pass` |
 
-> **Nota:** O sistema atual redireciona direto, sem validação obrigatória.
+> **Nota:** O sistema atual no cadastro redireciona direto, sem validação obrigatória.
 
 ---
 
@@ -74,7 +73,7 @@ http://localhost:5173
 
 ## 🔗 Link do Repositório
 
-🔗 **[Acesse o repositório aqui](https://github.com/seuusuario/skilllink)**
+🔗 **[Acesse o repositório aqui](https://github.com/Bernardo07dev/SkillLink)**
 
 ---
 
