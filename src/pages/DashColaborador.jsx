@@ -49,8 +49,8 @@ const DashColaborador = () => {
 
                     {/* Seção Projetos */}
                     <div className='dark:bg-[#182832] shadow-xs bg-white w-full p-8 rounded-lg flex flex-col md:flex-row gap-6 justify-center'>
-                        <div className='bg-linear-to-r from-[#00C6FF] to-[#0072FF] w-[45%] rounded-lg'></div>
-                        <div className='w-[55%] flex flex-col'>
+                        <div className='w-full py-8 bg-linear-to-r from-[#00C6FF] to-[#0072FF] md:w-[45%] rounded-lg'></div>
+                        <div className='md:w-[55%] w-full flex flex-col'>
                             <h1 className='font-semibold text-lg mb-1'>Complete seu perfil: <strong>75% concluído</strong></h1>
                             <p className='text-gray-400 text-sm'>Adicone suas melhores habilidades, cursos e certificações</p>
                             <div class="w-[90%] bg-gray-700 rounded-full h-2 mt-4 mb-2">

@@ -57,8 +57,8 @@ const TimesColaborador = () => {
             <main className="p-8">
                 <h1 className="mt-4 mb-2 text-2xl font-semibold drak:text-gray-100">Times e Colaboração</h1>
                 <p className="text-sm font-medium text-gray-400 mb-4">Acompanhe os times que você faz parte, veja o desempenho da equipe e visualize como cada membro contribui para os projetos em andamento. Conecte-se com colegas, acompanhe responsabilidades e fique por dentro das entregas do time.</p>
-                <div className='dark:bg-[#182832] bg-white flex flex-row justify-start px-8 py-6 rounded-xl gap-4'>
-                    <div className='w-[40%]'>
+                <div className='dark:bg-[#182832] bg-white flex flex-col sm:flex-row justify-start px-8 py-6 rounded-xl gap-4'>
+                    <div className='sm:w-[40%] w-full'>
                         <p className='mb-2'>Área</p>
                         <select className="dark:bg-[#101C22] bg-[#F6F7F8] w-full px-6 dark:text-gray-400 font-medium text-sm py-3 rounded-lg border-none" onChange={(e) => setAreaTemp(e.target.value)} value={areaTemp}>
                             <option value="todas">Todas</option>
@@ -71,7 +71,7 @@ const TimesColaborador = () => {
                         </select>
                     </div>
 
-                    <div className='w-[40%]'>
+                    <div className='sm:w-[40%] w-full'>
                         <p className='mb-2 dark:text-gray-200'>Status</p>
                         <select className="dark:bg-[#101C22] bg-[#F6F7F8] w-full px-6 dark:text-gray-400 font-medium text-sm py-3 rounded-lg border-none" onChange={(e) => setStatusTemp(e.target.value)} value={statusTemp}>
                             <option value="todos">Todos</option>
@@ -81,16 +81,16 @@ const TimesColaborador = () => {
                         </select>
                     </div>
 
-                    <div className='px-12 cursor-pointer gap-1 mt-8 rounded-lg flex flex-row text-white justify-start items-center bg-[#13A4EC]'>
+                    <div className='px-12 py-4 sm:py-0 cursor-pointer gap-1 mt-8 rounded-lg flex flex-row text-white justify-start items-center bg-[#13A4EC]'>
                         <FontAwesomeIcon className='' icon={faArrowDownWideShort}></FontAwesomeIcon>
                         <p onClick={aplicarFiltros} className='text-sm font-medium'>Aplicar</p>
                     </div>
                 </div>
 
-                {filtrados.length === 0 ? <p className="text-gray-400 text-sm font-semibold mt-6 mx-4">Nenhum time encontrado...</p> : chunkArray(filtrados, 4).map((grupo, index) => (
-                    <div key={index} className="flex flex-row">
+                {filtrados.length === 0 ? <p className="text-gray-400 text-sm font-semibold mt-6 mx-4">Nenhum time encontrado...</p> : chunkArray(filtrados, 3).map((grupo, index) => (
+                    <div key={index} className="flex flex-col lg:flex-row">
                         {grupo.map((item, i) => (
-                            <div key={i} className='dark:bg-[#182832] bg-white p-6 rounded-lg w-[25%] flex flex-col justify-around mx-2 my-6'>
+                            <div key={i} className='dark:bg-[#182832] bg-white p-6 rounded-lg lg:w-[35%] flex flex-col justify-around mx-2 my-6'>
                                 
                                 <div className='flex flex-row'>
                                     <p className='w-[75%] tracking-tighter text-lg font-semibold dark:text-gray-200'>
