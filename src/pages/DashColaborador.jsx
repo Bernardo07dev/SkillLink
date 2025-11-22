@@ -66,7 +66,7 @@ const DashColaborador = () => {
                     {/* Seção Recomendações */}
                     <div className='dark:bg-[#182832] shadow-xs bg-white w-full p-8 rounded-lg flex flex-col gap-6 justify-start'>
                         <h1 className='font-semibold text-lg'>Cursos que recomendamos para você:</h1>
-                        <div className='flex flex-col md:flex-roww gap-6'>
+                        <div className='flex flex-col md:flex-row gap-6'>
                             <div className='md:w-[50%] w-full border-2 shadow-sm border-[#c0bcff22] p-6 rounded-xl gap-2 flex flex-col'>
                                 <FontAwesomeIcon className='text-4xl mb-2 text-[#13A4EC]' icon={faTachographDigital}></FontAwesomeIcon>
                                 <h2 className='dark:text-gray-200 text-gray-600 font-bold'>UX/UI Fundamentals + Design Thinking</h2>
